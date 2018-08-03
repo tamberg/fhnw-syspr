@@ -1,7 +1,7 @@
 # System-Programmierung
-Unterlagen zum Modul [syspr]( https://www.fhnw.ch/de/studium/module/6008081) von [@tamberg](https://twitter.com/tamberg) für [FHNW](https://www.fhnw.ch/).
+Modul [syspr]( https://www.fhnw.ch/de/studium/module/6008081) von [@tamberg](https://twitter.com/tamberg) für [FHNW](https://www.fhnw.ch/).
 
-## Lektion 0: Erste Schritte in C
+## Lektion 1: Erste Schritte in C
 - [Slides](http://www.tamberg.org/fhnw/2018/Syspr01ErsteSchritteInC.pdf)
 - [Handouts](http://www.tamberg.org/fhnw/2018/Syspr01ErsteSchritteInCHandout.pdf)
 
