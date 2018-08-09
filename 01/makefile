@@ -1,16 +1,7 @@
-all: args arr_ptr arrays basics expr hello odd sizeof strings structs switch typedef 
-
-args: args.c
-	gcc -std=c99 -pedantic -pedantic-errors -Werror -Wall -Wextra -o args args.c
-
-arr_ptr: arr_ptr.c
-	gcc -std=c99 -pedantic -pedantic-errors -Werror -Wall -Wextra -o arr_ptr arr_ptr.c
-
-arrays: arrays.c
-	gcc -std=c99 -pedantic -pedantic-errors -Werror -Wall -Wextra -o arrays arrays.c
-
 CC=gcc 
 CFLAGS=-std=c99 -pedantic -pedantic-errors -Werror -Wall -Wextra
+
+all: args arr_ptr arrays basics expr hello odd sizeof strings structs switch typedef 
 
 basics: basics.c
 expr: expr.c
