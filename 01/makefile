@@ -9,32 +9,18 @@ arr_ptr: arr_ptr.c
 arrays: arrays.c
 	gcc -std=c99 -pedantic -pedantic-errors -Werror -Wall -Wextra -o arrays arrays.c
 
+CC=gcc 
+CFLAGS=-std=c99 -pedantic -pedantic-errors -Werror -Wall -Wextra
+
 basics: basics.c
-	gcc -std=c99 -pedantic -pedantic-errors -Werror -Wall -Wextra -o basics basics.c
-
 expr: expr.c
-	gcc -std=c99 -pedantic -pedantic-errors -Werror -Wall -Wextra -o expr expr.c
-
 hello: hello.c
-	gcc -std=c99 -pedantic -pedantic-errors -Werror -Wall -Wextra -o hello hello.c
-
 odd: odd.c
-	gcc -std=c99 -pedantic -pedantic-errors -Werror -Wall -Wextra -o odd odd.c
-
 sizeof: sizeof.c
-	gcc -std=c99 -pedantic -pedantic-errors -Werror -Wall -Wextra -o sizeof sizeof.c
-
 strings: strings.c
-	gcc -std=c99 -pedantic -pedantic-errors -Werror -Wall -Wextra -o strings strings.c
-
 structs: structs.c
-	gcc -std=c99 -pedantic -pedantic-errors -Werror -Wall -Wextra -o structs structs.c
-
 switch: switch.c
-	gcc -std=c99 -pedantic -pedantic-errors -Werror -Wall -Wextra -o switch switch.c
-
 typedef: typedef.c
-	gcc -std=c99 -pedantic -pedantic-errors -Werror -Wall -Wextra -o typedef typedef.c
 
 clean:
 	rm -f args
@@ -48,5 +34,5 @@ clean:
 	rm -f strings
 	rm -f structs
 	rm -f switch
-	rm -f typedef
+	rm -f typedof
 
