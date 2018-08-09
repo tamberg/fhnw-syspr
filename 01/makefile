@@ -25,5 +25,4 @@ clean:
 	rm -f strings
 	rm -f structs
 	rm -f switch
-	rm -f typedof
-
+	rm -f typedef
