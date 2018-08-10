@@ -1,7 +1,7 @@
 CC=gcc 
 CFLAGS=-std=c99 -pedantic -pedantic-errors -Werror -Wall -Wextra
 
-all: args arr_ptr arrays basics expr hello odd sizeof strings structs switch typedef 
+all: args arr_ptr arrays basics expr hello odd sizeof strings structs switch typedef unions
 
 basics: basics.c
 expr: expr.c
@@ -12,6 +12,7 @@ strings: strings.c
 structs: structs.c
 switch: switch.c
 typedef: typedef.c
+unions: unions.c
 
 clean:
 	rm -f args
@@ -26,3 +27,4 @@ clean:
 	rm -f structs
 	rm -f switch
 	rm -f typedef
+	rm -f unions
