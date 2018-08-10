@@ -17,7 +17,7 @@ int main () {
     printf("long: %ld .. %ld\n", LONG_MIN, LONG_MAX);
     printf("unsigned long: 0 .. %lu\n\n", ULONG_MAX);
     
-    printf("long long: %lld .. %lld\n", LONG_LONG_MIN, LONG_LONG_MAX);
-    printf("unsigned long long: 0 .. %llu\n", ULONG_LONG_MAX);
+    //printf("long long: %lld .. %lld\n", LONG_LONG_MIN, LONG_LONG_MAX);
+    //printf("unsigned long long: 0 .. %llu\n", ULONG_LONG_MAX);
     return 0;
 }
