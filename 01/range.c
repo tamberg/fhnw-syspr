@@ -2,7 +2,6 @@
 #include <limits.h>
 
 int main () {
-    printf("bits per byte %d\n\n", CHAR_BIT);
     // char
     printf("char: %d .. %d\n", CHAR_MIN, CHAR_MAX);
     printf("signed char: %d .. %d\n", SCHAR_MIN, SCHAR_MAX);
