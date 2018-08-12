@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(int argc, char *argv[ ]) {
+int main(int argc, char *argv[]) {
     // check each arg, except program name
     for (int i = 1; i < argc; i++) {
         for (char *p = argv[i]; *p != '\0'; p++) {
