@@ -1,11 +1,12 @@
 CC=gcc 
 CFLAGS=-std=c99 -pedantic -pedantic-errors -Werror -Wall -Wextra
 
-all: args arr_ptr arrays basics bits boolean expr hello odd range sizeof strings structs switch typedef unions
+all: args arr_ptr arrays basics bits boolean do_while expr hello odd range sizeof strings structs switch typedef unions
 
 basics: basics.c
 bits: bits.c
 boolean: boolean.c
+do_while: do_while.c
 expr: expr.c
 hello: hello.c
 odd: odd.c
@@ -24,6 +25,7 @@ clean:
 	rm -f basics
 	rm -f bits
 	rm -f boolean
+	rm -f do_while
 	rm -f expr
 	rm -f hello
 	rm -f odd
