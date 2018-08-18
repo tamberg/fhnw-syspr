@@ -1,9 +1,9 @@
 # System-Programmierung
 Modul [syspr]( https://www.fhnw.ch/de/studium/module/6008081) von [@tamberg](https://twitter.com/tamberg) für [FHNW](https://www.fhnw.ch/).
 
-## Lektion 10: Semaphore
-- [Slides](http://www.tamberg.org/fhnw/2018/Syspr10Semaphore.pdf) TODO
-- [Handout](http://www.tamberg.org/fhnw/2018/Syspr10SemaphoreHandout.pdf) TODO
+## Lektion 10: Weitere Arten von I/O
+- [Slides](http://www.tamberg.org/fhnw/2018/Syspr10WeitereArtenVonIO.pdf) TODO
+- [Handout](http://www.tamberg.org/fhnw/2018/Syspr10WeitereArtenVonIOHandout.pdf) TODO
 
 ## Beispiele
 - TODO
