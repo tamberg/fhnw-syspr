@@ -1,5 +1,5 @@
 #include <stdio.h>
 
 void f() {
-  printf("f called");
+  printf("f called\n");
 }
