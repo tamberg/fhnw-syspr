@@ -5,7 +5,7 @@
 // Verify on Linux with $ lscpu
 
 int main() {
-    typedef union {
+    typedef union packet {
         unsigned char byte_value;
         struct bit_layout {
             unsigned int lo_nibble : 4;
