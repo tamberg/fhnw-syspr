@@ -15,6 +15,8 @@ void home_enter() {
 }
 
 int main() {
+    //extern int temp;
+    //printf("%d\n", temp);
     int ch = getchar();
     while (ch != 'q') {
         switch (ch) {

@@ -1,6 +1,7 @@
 #include "nest.h"
 
-static int temp = MIN_TEMP;
+//static int temp = MIN_TEMP;
+int temp = MIN_TEMP;
 
 int max(int a, int b) {
     return a > b ? a : b;
