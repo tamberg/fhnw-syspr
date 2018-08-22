@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "./nest.h"
 
 #define FAV_TEMP 23
