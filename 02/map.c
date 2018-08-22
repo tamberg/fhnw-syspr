@@ -13,7 +13,7 @@ void map(int a[], int len, int (*f)(int)) {
 }
 
 int main() {
-    int a[] = {1, 2, 3};
+    int a[] = {0, 0, 7};
     int len = sizeof a / sizeof a[0]; // # of elements
     map(a, len, inc); // inc is a function pointer
     printf("{%d, %d, %d}\n", a[0], a[1], a[2]);
