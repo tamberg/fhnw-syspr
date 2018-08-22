@@ -14,15 +14,14 @@ void home_enter() {
     }
 }
 
-//int main(int argc, char *argv[]) {
-//    int ch = (argc == 2) ? argv[1][0] : 'h'; //'h'elp
 int main() {
     int ch = getchar();
     while (ch != 'q') {
         switch (ch) {
             case 'l': home_leave(); break;
             case 'e': home_enter(); break;
-//            default: printf("usage: home leave|enter\n");
+            case '\n': break; // ignore
+            default: printf("usage: type 'l'eave | 'e'nter | 'q'uit \n");
         }
         ch = getchar();
     }
