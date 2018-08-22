@@ -1,6 +1,8 @@
 # System-Programmierung
 Modul [syspr]( https://www.fhnw.ch/de/studium/module/6008081) von [@tamberg](https://twitter.com/tamberg) für [FHNW](https://www.fhnw.ch/).
 
+> Work in progress...
+
 0. [Einführung](00/README.md)
 1. [Erste Schritte in C](01/README.md)
 2. [Funktionen](02/README.md)
