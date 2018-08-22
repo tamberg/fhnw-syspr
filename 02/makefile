@@ -1,7 +1,7 @@
 CC=gcc 
 CFLAGS=-std=c99 -pedantic -pedantic-errors -Werror -Wall -Wextra
 
-all: count map my_program power scope struct_fun swap
+all: count fib map my_program power scope struct_fun swap
 
 my_program: main.o f.o
 	$(CC) $(CFLAGS) -o my_program main.o f.o
@@ -12,6 +12,7 @@ f.o: f.c
 	$(CC) $(CFLAGS) -c f.c
 
 count: count.c
+fin: fin.c
 map: map.c
 power: power.c
 scope: scope
@@ -21,6 +22,7 @@ swap: swap.c
 clean:
 	rm -f *.o
 	rm -f count
+	rm -f fib
 	rm -f map
 	rm -f my_program
 	rm -f power
