@@ -1,7 +1,7 @@
 CC=gcc 
 CFLAGS=-std=c99 -pedantic -pedantic-errors -Werror -Wall -Wextra
 
-all: count fib map my_program nest/home power scope struct_fun swap
+all: count fib map my_program nest/home power scope static struct_fun swap
 
 my_program: main.o f.o
 	$(CC) $(CFLAGS) -o my_program main.o f.o
@@ -19,6 +19,7 @@ fin: fin.c
 map: map.c
 power: power.c
 scope: scope.c
+static: static.c
 struct_fun: struct_fun.c
 swap: swap.c
 
@@ -30,6 +31,7 @@ clean:
 	rm -f map
 	rm -f my_program
 	rm -f power
-	rm -f struct_fun
 	rm -f scope
+	rm -f static
+	rm -f struct_fun
 	rm -f swap
