@@ -11,6 +11,9 @@ main.o: main.c
 f.o: f.c
 	$(CC) $(CFLAGS) -c f.c
 
+nest/home:
+	make -C home
+
 count: count.c
 fin: fin.c
 map: map.c
@@ -20,6 +23,7 @@ struct_fun: struct_fun.c
 swap: swap.c
 
 clean:
+	(cd nest && make clean)
 	rm -f *.o
 	rm -f count
 	rm -f fib
