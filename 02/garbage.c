@@ -2,7 +2,6 @@
 
 void keep_secret() {
     int secret = 1337;
-    printf("%d\n", secret);
 }
 
 void show_secret() {
