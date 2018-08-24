@@ -1,17 +1,17 @@
 #include <stdio.h>
 
-void alice_work() {
+void keep_secret() {
     int secret = 1337;
     printf("%d\n", secret);
 }
 
-void eve_spy() {
+void show_secret() {
     //printf("%d\n", secret); // not visible
     int garbage; // not initialised
     printf("%d\n", garbage);
 }
 
 int main() {
-    alice_work();
-    eve_spy();
+    keep_secret();
+    show_secret();
 }
