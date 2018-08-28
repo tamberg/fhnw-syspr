@@ -6,17 +6,28 @@ Modul [syspr]( https://www.fhnw.ch/de/studium/module/6008081) von [@tamberg](htt
 - [Handout](http://www.tamberg.org/fhnw/2018/Syspr01ErsteSchritteInCHandout.pdf)
 
 ## Beispiele
-- [hello.c](hello.c)
-- [expr.c](expr.c)
-- [odd.c](odd.c)
-- [arrays.c](arrays.c)
-- [pointers.c](pointers.c)
 - [arr_ptr.c](arr_ptr.c)
+- [arrays.c](arrays.c)
+- [basics.c](basics.c)
+- [bits.c](bits.c)
+- [do_while.c](do_while.c)
+- [expr.c](expr.c)
+- [hello.c](hello.c)
+- [odd.c](odd.c)
+- [sizeof.c](sizeof.c)
 - [strings.c](strings.c)
-- [args.c](args.c)
 - [structs.c](structs.c)
-- [typedefs.c](typedefs.c)
+- [switch.c](switch.c)
+- [typedef.c](typedef.c)
 - [unions.c](unions.c)
+- [variants.c](variants.c)
 
 ## Hands-on
-- [Aufgabe]()
+- Siehe Slides
+
+## Lösungsvorschlag
+- [args.c](args.c)
+- [range.c](range.c)
+
+## Support
+- [Slack](https://fhnw-syspr.slack.com/)

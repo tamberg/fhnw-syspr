@@ -9,10 +9,7 @@ Modul [syspr]( https://www.fhnw.ch/de/studium/module/6008081) von [@tamberg](htt
 - [hello.c](hello.c)
 
 ## Hands-on
-- [Aufgabe]()
-
-## Übung
-- [Aufgabe]()
+- Siehe Slides
 
 ## Support
 - [Slack](https://fhnw-syspr.slack.com/)

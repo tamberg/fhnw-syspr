@@ -6,7 +6,7 @@ Modul [syspr]( https://www.fhnw.ch/de/studium/module/6008081) von [@tamberg](htt
 0. [Einführung](00/README.md)
 1. [Erste Schritte in C](01/README.md)
 2. [Funktionen](02/README.md)
-3. [Datei In-/Output](03/README.md)
+3. [File In-/Output](03/README.md)
 4. [Prozesse und Signale](04/README.md)
 5. [Prozess Lebenszyklus](05/README.md)
 6. [Threads und Synchronisation](06/README.md)
