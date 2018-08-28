@@ -5,7 +5,7 @@ Modul [syspr]( https://www.fhnw.ch/de/studium/module/6008081) von [@tamberg](htt
 - [Slides](http://www.tamberg.org/fhnw/2018/Syspr01ErsteSchritteInC.pdf)
 - [Handout](http://www.tamberg.org/fhnw/2018/Syspr01ErsteSchritteInCHandout.pdf)
 
-### Beispiele
+## Beispiele
 - [arr_ptr.c](arr_ptr.c)
 - [arrays.c](arrays.c)
 - [basics.c](basics.c)
@@ -22,12 +22,12 @@ Modul [syspr]( https://www.fhnw.ch/de/studium/module/6008081) von [@tamberg](htt
 - [unions.c](unions.c)
 - [variants.c](variants.c)
 
-### Hands-on
+## Hands-on
 - Siehe Slides
 
-### Lösungsvorschlag
+## Lösungsvorschlag
 - [args.c](args.c)
 - [range.c](range.c)
 
-### Support
+## Support
 - [Slack](https://fhnw-syspr.slack.com/)
