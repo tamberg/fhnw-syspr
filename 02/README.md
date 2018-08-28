@@ -10,7 +10,7 @@ Modul [syspr]( https://www.fhnw.ch/de/studium/module/6008081) von [@tamberg](htt
 - [errno.c](errno.c)
 - [fib.c](fib.c)
 - [garbage.c](garbage.c)
-- [main.c](main.c) & [f.c](f.c)
+- [main.c](main.c), [f.c](f.c)
 - [map.c](map.c)
 - [nest](nest)
   - [home.c](nest/home.c)
