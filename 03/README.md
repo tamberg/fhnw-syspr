@@ -6,7 +6,9 @@ Modul [syspr]( https://www.fhnw.ch/de/studium/module/6008081) von [@tamberg](htt
 - [Handout](http://www.tamberg.org/fhnw/2018/Syspr03FileIOHandout.pdf) TODO
 
 ## Beispiele
-- TODO
+- [copy.c](http://man7.org/tlpi/code/online/dist/fileio/copy.c.html)<sup>TLPI</sup>
+- [file.c](file.c)
+- [lseek.c](lseek.c)
 
 ## Hands-on
 - TODO
