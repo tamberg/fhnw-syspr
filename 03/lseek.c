@@ -16,9 +16,9 @@ int main() {
     printf("%d\n", set);
     off_t end = lseek(fd, 0, SEEK_END);
     printf("%d\n", end);
-    int len = end - set;
     cur = lseek(fd, 0, SEEK_CUR);
     printf("%d\n", cur);
+    int len = end - set;
     cur = lseek(fd, -len, SEEK_END);
     printf("%d\n", cur);
     cur = lseek(fd, len, SEEK_SET);
