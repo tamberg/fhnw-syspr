@@ -5,7 +5,6 @@
 #define BUF_SIZE 1024
 
 int main() {
-    // TODO: error handling
     char buf[BUF_SIZE];
     int fd = open("./file.c", O_RDONLY);
     int r = read(fd, buf, BUF_SIZE);
