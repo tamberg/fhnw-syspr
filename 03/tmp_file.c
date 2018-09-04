@@ -17,13 +17,13 @@ int main() {
     printf("created filename %s\n", template);
     printf("press RETURN to unlink\n");
     int ch = getchar();
-    unlink(template);
-    if (fd == -1) {
+    int result = unlink(template);
+    if (result == -1) {
         error("unlink");
     }
     printf("unlinked filename %s\n", template);
-    close(fd);
-    if (fd == -1) {
+    result = close(fd);
+    if (result == -1) {
         error("close");
     }
     return 0;
