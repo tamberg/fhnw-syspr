@@ -24,5 +24,9 @@ int main() {
             error("fprintf");
         }
     }
+    //res = fflush(stream);
+    //if (res == EOF) {
+    //    error("fflush");
+    //}
     return 0;
 }
