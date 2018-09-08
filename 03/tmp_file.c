@@ -1,6 +1,7 @@
 #define _XOPEN_SOURCE 500
 // http://man7.org/linux/man-pages/man7/feature_test_macros.7.html
 // http://man7.org/linux/man-pages/man3/mkstemp.3.html
+// https://stackoverflow.com/questions/5378778/what-does-d-xopen-source-do-mean#5724485
 
 #include <stdio.h>
 #include <stdlib.h>
