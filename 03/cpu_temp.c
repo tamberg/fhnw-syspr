@@ -19,7 +19,7 @@ int main() {
         write(fd1, ".", 1); // write (missing) point
         write(fd1, p, 3); // write 3 chars =>  500
         write(fd1, ",\r\n", 3); // CSV => ,CRLF
-        sleep(3); // seconds
+        sleep(3); // sleep for 3 seconds
     }
     // CTRL-C to exit process, closes fd0, fd1
     return 0;
