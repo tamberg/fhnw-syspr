@@ -10,18 +10,18 @@ int main() {
     int fd = open("./lseek.c", O_RDONLY);
     ssize_t r = read(fd, buf, BUF_SIZE);
     off_t cur = lseek(fd, 0, SEEK_CUR);
-    printf("%d\n", cur);
+    printf("%ld\n", cur);
     off_t set = lseek(fd, 0, SEEK_SET);
-    printf("%d\n", set);
+    printf("%ld\n", set);
     off_t end = lseek(fd, 0, SEEK_END);
-    printf("%d\n", end);
+    printf("%ld\n", end);
     cur = lseek(fd, 0, SEEK_CUR);
-    printf("%d\n", cur);
+    printf("%ld\n", cur);
     int len = end - set;
     cur = lseek(fd, -len, SEEK_END);
-    printf("%d\n", cur);
+    printf("%ld\n", cur);
     cur = lseek(fd, len, SEEK_SET);
-    printf("%d\n", cur);
+    printf("%ld\n", cur);
     r = read(fd, buf, BUF_SIZE);
     printf("%d\n", r); // EOF
 }
