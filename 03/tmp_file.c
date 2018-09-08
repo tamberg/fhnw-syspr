@@ -1,3 +1,7 @@
+#define _XOPEN_SOURCE 500
+// http://man7.org/linux/man-pages/man7/feature_test_macros.7.html
+// http://man7.org/linux/man-pages/man3/mkstemp.3.html
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
@@ -16,7 +20,7 @@ int main() {
     }
     printf("created filename %s\n", template);
     printf("press RETURN to unlink\n");
-    int ch = getchar();
+    getchar();
     int result = unlink(template);
     if (result == -1) {
         error("unlink");
