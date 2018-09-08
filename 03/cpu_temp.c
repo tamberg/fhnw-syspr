@@ -14,7 +14,7 @@ int main() {
         lseek(fd0, 0, SEEK_SET); // set CUR to beginning of file fd0
         int r = read(fd0, buf, BUF_SIZE); // read, e.g. 37500\n => r = 6
         int i = r - 3 - 1; // length of integer part of 37.500 => i = 2
-        char *p = buf; // pointer to &buf[0]
+        char *p = buf; // pointer to first element of buf, &buf[0]
         write(fd1, p, i); // write i chars starting at p => 37
         p += i; // move p to compensate for written chars
         write(fd1, ".", 1); // write (missing) point
