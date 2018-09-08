@@ -10,7 +10,7 @@ int main() {
     int fd0 = open("/sys/class/thermal/thermal_zone0/temp", O_RDONLY);
     int fd1 = open("./temp.txt", O_CREAT|O_WRONLY|O_TRUNC|O_APPEND, S_IRUSR|S_IWUSR);
     while (1) {
-        lseek(fd0, 0, SEEK_SET); // set CUR to beginning of file fd0
+        lseek(fd0, 0, SEEK_SET); // set SEEK_CUR to beginning of file fd0
         int r = read(fd0, buf, BUF_SIZE); // read, e.g. 37500\n => r = 6
         int i = r - 3 - 1; // length of integer part of 37.500 => i = 2
         char *p = buf; // pointer to first element of buf, &buf[0]
