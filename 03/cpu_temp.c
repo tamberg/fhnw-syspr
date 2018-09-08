@@ -3,7 +3,7 @@
 #include <unistd.h>
 #include <sys/stat.h>
 
-#define BUF_SIZE 32
+#define BUF_SIZE 7
 
 int main() {
     char buf[BUF_SIZE];
