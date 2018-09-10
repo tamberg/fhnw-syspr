@@ -1,7 +1,7 @@
 # System-Programmierung
 Modul [syspr]( https://www.fhnw.ch/de/studium/module/6008081) von [@tamberg](https://twitter.com/tamberg) für [FHNW](https://www.fhnw.ch/).
 
-Slides und Code-Beispiele.
+## Slides und Code-Beispiele.
 
 > Work in progress...
 
@@ -20,3 +20,10 @@ Slides und Code-Beispiele.
 12. [Shared Memory](12/README.md)
 13. [Message Queues](13/README.md)
 14. [Assessment II](14/README.md)
+
+## Git
+Auf dem Raspberry Pi
+
+* Repository klonen<pre>
+    $ cd ~
+    $ git clone https://github.com/tamberg/fhnw-syspr</pre>
