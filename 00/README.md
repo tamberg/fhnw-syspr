@@ -9,7 +9,7 @@ Modul [syspr]( https://www.fhnw.ch/de/studium/module/6008081) von [@tamberg](htt
 - [hello.c](hello.c)
 
 ## Hands-on
-- Siehe Slides
+- [Repository](https://github.com/tamberg/fhnw-syspr-work-00)
 
 ## Support
 - [Slack](https://fhnw-syspr.slack.com/)
