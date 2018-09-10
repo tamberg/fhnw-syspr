@@ -27,6 +27,6 @@ Auf dem Raspberry Pi
 * Repository klonen<pre>
     $ cd ~
     $ git clone https://github.com/tamberg/fhnw-syspr</pre>
-* Repository klonen<pre>
+* Repository updaten vor jeder Lektion<pre>
     $ cd ~/fhnw-syspr
     $ git pull</pre>
