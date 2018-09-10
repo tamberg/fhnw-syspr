@@ -13,7 +13,10 @@ Modul [syspr]( https://www.fhnw.ch/de/studium/module/6008081) von [@tamberg](htt
 - [seek_io.c](http://man7.org/tlpi/code/online/dist/fileio/seek_io.c.html)<sup>TLPI</sup>
 
 ## Hands-on
-- TODO
+- [Hands-on zu Lektion 3](../../../../fhnw-syspr-work-03/blob/master/README.md)
+
+## Lösungsvorschlag
+- [kilo.c](https://github.com/antirez/kilo/blob/master/kilo.c)
 
 ## Support
-- [Slack](https://fhnw-syspr.slack.com/)
+- [FHNW Syspr Slack](https://fhnw-syspr.slack.com/)
