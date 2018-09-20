@@ -23,11 +23,11 @@ Modul [syspr]( https://www.fhnw.ch/de/studium/module/6008081) von [@tamberg](htt
 - [variants.c](variants.c)
 
 ## Hands-on
-- Siehe Slides
+- [Hands-on zu Lektion 1](../../../../fhnw-syspr-work-01/blob/master/README.md)
 
 ## Lösungsvorschlag
 - [args.c](args.c)
 - [range.c](range.c)
 
 ## Support
-- [Slack](https://fhnw-syspr.slack.com/)
+- [FHNW Syspr Slack](https://fhnw-syspr.slack.com/)
