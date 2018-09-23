@@ -8,12 +8,12 @@ typedef struct node {
 } Node;
 
 int main() {	
-	Node *ll = malloc(sizeof(Node));
+    Node *ll = malloc(sizeof(Node));
     ll->label = "I am left left";
     ll->left = NULL;
     ll->right = NULL;
 
-	Node *lr = malloc(sizeof(Node));
+    Node *lr = malloc(sizeof(Node));
     lr->label = "I am left right";
     lr->left = NULL;
     lr->right = NULL;
