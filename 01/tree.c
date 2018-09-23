@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 typedef struct node {
     char *label;
@@ -7,27 +8,27 @@ typedef struct node {
 } Node;
 
 int main() {	
-	Node *ll;
+	Node *ll = malloc(sizeof(Node));
 	ll->label = "I am left left";
 	ll->left = NULL;
 	ll->right = NULL;
 	
-	Node *lr;
+	Node *lr = malloc(sizeof(Node));
 	lr->label = "I am left right";
 	lr->left = NULL;
 	lr->right = NULL;
 
-	Node *l;
+	Node *l = malloc(sizeof(Node));
 	l->label = "I am left";
 	l->left = ll;
 	l->right = lr;
 
-	Node *r;
+	Node *r = malloc(sizeof(Node));
 	r->label = "I am right";
 	r->left = NULL;
 	r->right = NULL;
 
-	Node *root;
+	Node *root = malloc(sizeof(Node));
 	root->label = "I am root";
 	root->left = l;
 	root->right = r;
