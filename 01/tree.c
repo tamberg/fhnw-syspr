@@ -33,11 +33,11 @@ int main() {
     root->left = l;
     root->right = r;
 	
-    free(nll);
-    free(nlr);
-    free(nl);
-    free(nr);
     free(root);
+    free(r);
+    free(l);
+    free(lr);
+    free(ll);
 
     return 0;
 }
