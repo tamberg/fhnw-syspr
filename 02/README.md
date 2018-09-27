@@ -19,7 +19,7 @@ Modul [syspr]( https://www.fhnw.ch/de/studium/module/6008081) von [@tamberg](htt
 - [power.c](power.c)
 - [scope.c](scope.c)
 - [static.c](static.c)
-- [struct_fun.c](struct_fun.c)
+- [struct.c](struct.c)
 - [swap.c](swap.c)
 - [version.c](version.c)
 
@@ -27,7 +27,7 @@ Modul [syspr]( https://www.fhnw.ch/de/studium/module/6008081) von [@tamberg](htt
 - [Hands-on zu Lektion 2](../../../../fhnw-syspr-work-02/blob/master/README.md)
 
 ## Lösungsvorschlag
-- [kilo.c](https://github.com/antirez/kilo/blob/master/kilo.c)
+- [struct_v2.c](struct_v2.c)
 
 ## Support
 - [FHNW Syspr Slack](https://fhnw-syspr.slack.com/)
