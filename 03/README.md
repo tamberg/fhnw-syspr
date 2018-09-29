@@ -17,6 +17,7 @@ Modul [syspr]( https://www.fhnw.ch/de/studium/module/6008081) von [@tamberg](htt
 
 ## Lösungsvorschlag
 - [cpu_temp.c](cpu_temp.c)
+- [dup.c](dup.c)
 
 ## Support
 - [FHNW Syspr Slack](https://fhnw-syspr.slack.com/)
