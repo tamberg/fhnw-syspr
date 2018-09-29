@@ -4,10 +4,12 @@
 #include <errno.h>
 
 // $ ls -al /var/log/syslog
-// -rw-r----- 1 root ...
+// -rw-r----- 1 root adm ...
+// $ ./error
+// $ sudo ./error
 
 int main() {
-    int fd = open("./file.c", O_RDWR);
+    int fd = open("/var/log/syslog", O_RDWR);
     if (fd == -1) {
         printf("error: %d", errno);
         return -1;
