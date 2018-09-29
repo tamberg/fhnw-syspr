@@ -16,7 +16,7 @@ Modul [syspr]( https://www.fhnw.ch/de/studium/module/6008081) von [@tamberg](htt
 - [Hands-on zu Lektion 3](../../../../fhnw-syspr-work-03/blob/master/README.md)
 
 ## Lösungsvorschlag
-- TODO
+- [cpu_temp.c](cpu_temp.c)
 
 ## Support
 - [FHNW Syspr Slack](https://fhnw-syspr.slack.com/)
