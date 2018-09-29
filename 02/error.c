@@ -14,7 +14,7 @@ int main() {
         printf("error: %d", errno);
         return -1;
     }
-    // write & read ...
+    // read & write...
     close(fd);
     return 0;
 }
