@@ -28,6 +28,8 @@ Modul [syspr]( https://www.fhnw.ch/de/studium/module/6008081) von [@tamberg](htt
 ## Lösungsvorschlag
 - [args.c](args.c)
 - [range.c](range.c)
+- [tree.c](tree.c)
+- [tree_v2.c](tree_v2.c)
 
 ## Support
 - [FHNW Syspr Slack](https://fhnw-syspr.slack.com/)
