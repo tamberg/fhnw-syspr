@@ -13,7 +13,7 @@ tmp_file: tmp_file.c
 clean:
 	rm -f cpu_temp
 	rm -f dup
-        rm -f file
+	rm -f file
 	rm -f lseek
 	rm -f stdio_buf
 	rm -f tmp_file
