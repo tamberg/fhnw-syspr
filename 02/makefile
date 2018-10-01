@@ -1,7 +1,7 @@
 CC=gcc 
 CFLAGS=-std=c99 -pedantic -pedantic-errors -Werror -Wall -Wextra
 
-all: count errno error fib garbage map my_program nest/home power scope static struct struct_v2 swap
+all: count errno error fib garbage map max my_program nest/home power scope static struct struct_v2 swap
 
 my_program: main.o f.o
 	$(CC) $(CFLAGS) -o my_program main.o f.o
@@ -22,6 +22,7 @@ errno: errno.c
 error: error.c
 fin: fin.c
 map: map.c
+max: max.c
 power: power.c
 scope: scope.c
 static: static.c
@@ -38,6 +39,7 @@ clean:
 	rm -f fib
 	rm -f garbage
 	rm -f map
+	rm -f max
 	rm -f my_program
 	rm -f power
 	rm -f scope
