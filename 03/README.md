@@ -8,7 +8,6 @@ Modul [syspr]( https://www.fhnw.ch/de/studium/module/6008081) von [@tamberg](htt
 ## Beispiele
 - [atomic_append.c](http://man7.org/tlpi/code/online/dist/fileio/atomic_append.c.html)<sup>TLPI</sup>
 - [copy.c](http://man7.org/tlpi/code/online/dist/fileio/copy.c.html)<sup>TLPI</sup>
-- [file.c](file.c)
 - [lseek.c](lseek.c)
 - [seek_io.c](http://man7.org/tlpi/code/online/dist/fileio/seek_io.c.html)<sup>TLPI</sup>
 
@@ -17,6 +16,8 @@ Modul [syspr]( https://www.fhnw.ch/de/studium/module/6008081) von [@tamberg](htt
 
 ## Lösungsvorschlag
 - [cpu_temp.c](cpu_temp.c)
+- [clone.c](clone.c)
+- [clone_v2.c](clone_v2.c)
 - [dup.c](dup.c)
 
 ## Support
