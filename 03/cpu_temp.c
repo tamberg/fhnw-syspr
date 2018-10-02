@@ -8,7 +8,7 @@
 int main() {
     char buf[BUF_SIZE];
     int fd0 = open("/sys/class/thermal/thermal_zone0/temp", O_RDONLY);
-    int fd1 = open("./temp.txt", O_CREAT|O_WRONLY|O_TRUNC|O_APPEND, S_IRUSR|S_IWUSR);
+    int fd1 = open("./temp.csv", O_CREAT|O_WRONLY|O_TRUNC|O_APPEND, S_IRUSR|S_IWUSR);
     while (1) {
         lseek(fd0, 0, SEEK_SET); // set SEEK_CUR to beginning of file fd0
         int r = read(fd0, buf, BUF_SIZE); // read, e.g. 37500\n => r = 6
