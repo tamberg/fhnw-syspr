@@ -6,7 +6,9 @@
 // $ ls -al /var/log/syslog
 // -rw-r----- 1 root adm ...
 // $ ./error
+// error: 13
 // $ sudo ./error
+// (OK)
 
 int main() {
     int fd = open("/var/log/syslog", O_RDWR);
