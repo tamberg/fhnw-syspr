@@ -1,11 +1,12 @@
-CC=gcc 
+CC=gcc
 CFLAGS=-std=c99 -pedantic -pedantic-errors -Werror -Wall -Wextra
 
-all: clone clone_v2 cpu_temp dup lseek stdio_buf tmp_file truncate
+all: clone clone_v2 cpu_temp dir dup lseek stdio_buf tmp_file truncate
 
 clone: clone.c
 clone_v2: clone_v2.c
 cpu_temp: cpu_temp.c
+dir: dir.c
 dup: dup.c
 lseek: lseek.c
 stdio_buf: stdio_buf.c
@@ -18,6 +19,7 @@ clean:
 	rm -f clone
 	rm -f clone_v2
 	rm -f cpu_temp
+	rm -f dir
 	rm -f dup
 	rm -f dup.txt
 	rm -f lseek
