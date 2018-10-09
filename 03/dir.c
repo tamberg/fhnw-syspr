@@ -10,6 +10,7 @@ void error(char *fun_name) {
 }
 
 int main() {
+    //const char *path = "./my_dir/my_sub_dir";
     const char *path = "./my_dir";
     mode_t mode = S_IRUSR | S_IWUSR | S_IXUSR;
     int result = mkdir(path, mode);
@@ -25,4 +26,5 @@ int main() {
     if (result == -1) {
         error("remove");
     }
+    return 0;
 }
