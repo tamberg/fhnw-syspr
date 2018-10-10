@@ -39,4 +39,5 @@ int main() {
     setenv_const();
     putenv_heap();
     getenv_both();
+    return 0;
 }
