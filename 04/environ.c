@@ -28,10 +28,10 @@ void putenv_heap() {
 }
 
 void getenv_both() {
-    char *h = getenv("MY_HEAP_VAR");
-    printf("MY_HEAP_VAR=%s\n", h);
-    char *c = getenv("MY_CONST_VAR");
-    printf("MY_CONST_VAR=%s\n", c);
+    char *my_heap_var = getenv("MY_HEAP_VAR");
+    printf("MY_HEAP_VAR=%s\n", my_heap_var);
+    char *my_const_var = getenv("MY_CONST_VAR");
+    printf("MY_CONST_VAR=%s\n", my_const_var);
 }
 
 int main() {
