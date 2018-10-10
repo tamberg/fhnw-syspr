@@ -1,5 +1,3 @@
-#define _GNU_SOURCE
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
@@ -13,6 +11,6 @@ int main() {
 	p++;
     }
 
-    char *user = getenv("USER"); // requires _GNU_SOURCE
+    char *user = getenv("USER");
     printf("USER=%s\n", user);
 }
