@@ -3,7 +3,7 @@
 
 extern char etext, edata, end;
 
-char a[4096]; // uninitialised data
+char a[1024]; // uninitialised data
 char b[] = {0x00, 0x01, 0x02}; // initialised data
 
 void f(void) { // stack frame for f()
