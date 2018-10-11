@@ -1,15 +1,15 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+#define N 32
+
 int main() {
-    int n = 32;
-    int size = n * sizeof(int);
+    int size = N * sizeof(int);
     int *p = (int *) malloc(size);
     int *p0 = p;
-    while (n > 0) {
+    for (int = 0; i < N; i++) {
         printf("%p, %d\n", (void *) p, *p); // garbage, if reused
         p++;
-        n--;
     }
     free(p0);
 }
