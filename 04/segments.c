@@ -16,8 +16,8 @@ int main() {
     printf("&etext = %p\n", (void *) &etext);
     printf("&edata = %p\n", (void *) &edata);
     printf("&end = %p\n", (void *) &end);
-    printf("&end - &edata = %ld\n", &end - &edata);
-    printf("&edata - &etext = %ld\n", &edata - &etext);
+    printf("&end - &edata = %ld\n", (long int) (&end - &edata));
+    printf("&edata - &etext = %ld\n", (long int) (&edata - &etext));
     printf("CTRL-C to stop");
     while(1) {}
 }
