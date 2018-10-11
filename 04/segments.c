@@ -13,11 +13,11 @@ void f(void) { // stack frame for f()
 
 int main() {
     printf("PID = %d\n", getpid());
-    printf("&etext = %p\n", &etext);
-    printf("&edata = %p\n", &edata);
-    printf("&end = %p\n", &end);
-    printf("&end - &edata = %d\n", &end - &edata);
-    printf("&edata - &etext = %d\n", &edata - &etext);
+    printf("&etext = %p\n", (void *) &etext);
+    printf("&edata = %p\n", (void *) &edata);
+    printf("&end = %p\n", (void *) &end);
+    printf("&end - &edata = %ld\n", &end - &edata);
+    printf("&edata - &etext = %ld\n", &edata - &etext);
     printf("CTRL-C to stop");
     while(1) {}
 }
