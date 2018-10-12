@@ -7,9 +7,10 @@ int main() {
     for (int n = 0; n < 32; n++) {
         size_t size = n * sizeof(char);
         void *p = malloc(size);
-//        size_t *ps = (size_t *) p;
-//        printf("n = %d, *ps = %d\n", n, *(--ps));
-          printf("n = %d, *ps = %d\n", n, *((int *) p - 1));
+        size_t *ps = p;
+        printf("n = %d, *ps = %d\n", n, *(--ps));
+//        printf("n = %d, *ps = %d\n", n, *((int *) p - 1));
+        free(p);
     }
 }
 
