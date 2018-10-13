@@ -18,9 +18,9 @@ Modul [syspr]( https://www.fhnw.ch/de/studium/module/6008081) von [@tamberg](htt
 - [Hands-on zu Lektion 4](../../../../fhnw-syspr-work-04/blob/master/README.md)
 
 ## Lösungsvorschlag
-- [malloc.png](malloc.png)
-- [sigint.png](sigint.png)
+- [malloc.c](malloc.c)
 - [ouch.c](http://man7.org/tlpi/code/online/dist/signals/ouch.c.html)<sup>TLPI</sup>
+- [sigint.png](sigint.png)
 
 ## Support
 - [FHNW Syspr Slack](https://fhnw-syspr.slack.com/)
