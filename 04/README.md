@@ -10,12 +10,14 @@ Modul [syspr]( https://www.fhnw.ch/de/studium/module/6008081) von [@tamberg](htt
 - [environ.c](environ.c)
 - [heap.c](heap.c)
 - [pid.c](pid.c)
+- [segments.c](segments.c)
+- [size.c](size.c)
 
 ## Hands-on
 - [Hands-on zu Lektion 4](../../../../fhnw-syspr-work-04/blob/master/README.md)
 
 ## Lösungsvorschlag
-- [x.c](x.c)
+- [sigint.c](sigint.c)
 - [ouch.c](http://man7.org/tlpi/code/online/dist/signals/ouch.c.html)<sup>TLPI</sup>
 
 ## Support
