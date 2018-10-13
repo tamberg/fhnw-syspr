@@ -2,7 +2,7 @@
 #include <signal.h>
 #include <unistd.h>
 
-int flag = 0;
+volatile int flag = 0;
 
 void handle(int signal) {
     flag = 1;
