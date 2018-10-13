@@ -6,7 +6,10 @@ Modul [syspr]( https://www.fhnw.ch/de/studium/module/6008081) von [@tamberg](htt
 - [Handout](http://www.tamberg.org/fhnw/2018/Syspr04ProzesseUndSignaleHandout.pdf)
 
 ## Beispiele
-- [x.c](http://man7.org/tlpi/code/online/dist/x.c.html)<sup>TLPI</sup>
+- [break.c](break.c)
+- [environ.c](environ.c)
+- [heap.c](heap.c)
+- [pid.c](pid.c)
 
 ## Hands-on
 - [Hands-on zu Lektion 4](../../../../fhnw-syspr-work-04/blob/master/README.md)
