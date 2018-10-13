@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#define N 32
+#define N 8
 
 int main() {
     int size = N * sizeof(int);
