@@ -6,6 +6,7 @@ all: environ heap pause pid segments sigint size
 environ: environ.c
 heap: heap.c
 pause: pause.c
+	$(CC) $(CFLAGS) -Wno-unused-parameter -o pause pause.c
 pid: pid.c
 segments: segments.c
 	$(CC) $(CFLAGS) -Wno-unused-variable -o segments segments.c
