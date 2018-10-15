@@ -6,7 +6,6 @@ all: environ heap malloc pause pid segments sigint size
 environ: environ.c
 heap: heap.c
 malloc: malloc.c
-	$(CC) $(CFLAGS) -Wno-unused-parameter -o malloc malloc.c
 pause: pause.c
 	$(CC) $(CFLAGS) -Wno-unused-parameter -o pause pause.c
 pid: pid.c
