@@ -6,11 +6,10 @@
 #include <errno.h>
 
 // naive implementation
-// allows a single my_malloc()
-// followed by a single my_free()
+// call sequence matters
 
 void *my_malloc(size_t size) {
-    printf("my_malloc(%lu)\n", size);
+    printf("my_malloc(%lu)\n", (unsigned long) size);
     void *p = sbrk(size);
     if (p == (void *) -1) {
         printf("my_malloc: error %d\n", errno);
