@@ -1,3 +1,5 @@
+#define _DEFAULT_SOURCE
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
@@ -7,19 +9,20 @@
 // allows a single my_malloc()
 // followed by a single my_free()
 
-int _size;
-
 void *my_malloc(size_t size) {
     printf("my_malloc(%lu)\n", size);
-    _size = size;
     void *p = sbrk(size);
+    if (p == (void *) -1) {
+        printf("my_malloc: error %d\n", errno);
+        exit(-1);
+    }
     return p;
 }
 
 void my_free(void *p) {
     printf("my_free(%p)\n", p);
-    void *q = sbrk(-_size);
-    if (q == (void *) -1) {
+    int result = brk(p);
+    if (result == -1) {
         printf("my_free: error %d\n", errno);
         exit(-1);
     }
