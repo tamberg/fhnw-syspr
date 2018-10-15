@@ -10,6 +10,7 @@ Modul [syspr]( https://www.fhnw.ch/de/studium/module/6008081) von [@tamberg](htt
 - [environ.c](environ.c)
 - [free_and_sbrk.c](http://man7.org/tlpi/code/online/dist/memalloc/free_and_sbrk.c.html)<sup>TLPI</sup>
 - [heap.c](heap.c)
+- [pause.c](pause.c)
 - [pid.c](pid.c)
 - [segments.c](segments.c)
 - [size.c](size.c)
@@ -20,6 +21,7 @@ Modul [syspr]( https://www.fhnw.ch/de/studium/module/6008081) von [@tamberg](htt
 ## Lösungsvorschlag
 - [malloc.c](malloc.c)
 - [ouch.c](http://man7.org/tlpi/code/online/dist/signals/ouch.c.html)<sup>TLPI</sup>
+- [sigint.c](sigint.c)
 - [sigint.png](sigint.png)
 
 ## Support
