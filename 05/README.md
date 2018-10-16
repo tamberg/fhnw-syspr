@@ -6,7 +6,10 @@ Modul [syspr]( https://www.fhnw.ch/de/studium/module/6008081) von [@tamberg](htt
 - [Handout](http://www.tamberg.org/fhnw/2018/Syspr05ProzessLebenszyklusHandout.pdf) TODO
 
 ## Beispiele
-- TODO
+- [x.c](x.c)
 
 ## Hands-on
-- TODO
+- [Hands-on zu Lektion 5](../../../../fhnw-syspr-work-05/blob/master/README.md)
+
+## Lösungsvorschlag
+- [x.c](x.c)
