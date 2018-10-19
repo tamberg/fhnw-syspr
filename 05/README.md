@@ -12,7 +12,7 @@ Modul [syspr]( https://www.fhnw.ch/de/studium/module/6008081) von [@tamberg](htt
 - [Hands-on zu Lektion 5](../../../../fhnw-syspr-work-05/blob/master/README.md)
 
 ## Lösungsvorschlag
-- [x.c](x.c)
+- [fork.c](fork.c)
 
 ## Support
 - [FHNW Syspr Slack](https://fhnw-syspr.slack.com/)
