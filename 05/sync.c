@@ -29,6 +29,14 @@ char *currTime(char *s) {
     return "";
 }
 
+void printMasks(void) {
+    sigset_t blkMask, pndMask;
+    sigprocmask(SIG_SETMASK, NULL, &blkMask);
+    printf("blocked %032x\n", blkMask);
+    sigpending(&pndMask);
+    printf("pending %032x\n", pndMask);
+}
+
 static void             /* Signal handler - does nothing but return */
 handler(int sig)
 {
@@ -47,7 +55,7 @@ main(int argc, char *argv[])
     sigaddset(&blockMask, SYNC_SIG);    /* Block signal */
     if (sigprocmask(SIG_BLOCK, &blockMask, &origMask) == -1)
         errExit("sigprocmask");
-
+    printMasks();
     sigemptyset(&sa.sa_mask);
     sa.sa_flags = SA_RESTART;
     sa.sa_handler = handler;
