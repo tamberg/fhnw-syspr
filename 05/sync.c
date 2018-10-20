@@ -1,3 +1,6 @@
+// adapted from http://man7.org/tlpi/code/online/book/procexec/fork_sig_sync.c.html
+// for hands-on https://github.com/tamberg/fhnw-syspr-work-05/blob/master/README.md
+
 /*************************************************************************\
 *                  Copyright (C) Michael Kerrisk, 2018.                   *
 *                                                                         *
