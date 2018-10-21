@@ -2,8 +2,8 @@
 Modul [syspr]( https://www.fhnw.ch/de/studium/module/6008081) von [@tamberg](https://twitter.com/tamberg) für [FHNW](https://www.fhnw.ch/).
 
 ## Lektion 5: Prozess Lebenszyklus
-- [Slides](http://www.tamberg.org/fhnw/2018/Syspr05ProzessLebenszyklus.pdf) TODO
-- [Handout](http://www.tamberg.org/fhnw/2018/Syspr05ProzessLebenszyklusHandout.pdf) TODO
+- [Slides](http://www.tamberg.org/fhnw/2018/Syspr05ProzessLebenszyklus.pdf)
+- [Handout](http://www.tamberg.org/fhnw/2018/Syspr05ProzessLebenszyklusHandout.pdf)
 
 ## Beispiele
 - [x.c](x.c)
@@ -12,7 +12,9 @@ Modul [syspr]( https://www.fhnw.ch/de/studium/module/6008081) von [@tamberg](htt
 - [Hands-on zu Lektion 5](../../../../fhnw-syspr-work-05/blob/master/README.md)
 
 ## Lösungsvorschlag
+- [Exit](http://www.tamberg.org/fhnw/2018/Syspr05ProzessLebenszyklusExit.pdf)
 - [fork.c](fork.c)
+- [sync.c](sync.c)
 
 ## Support
 - [FHNW Syspr Slack](https://fhnw-syspr.slack.com/)
