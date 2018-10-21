@@ -11,8 +11,11 @@
 * the file COPYING.gpl-v3 for details.                                    *
 \*************************************************************************/
 
+#define _POSIX_C_SOURCE 199309L
+
 #include <stdio.h>
 #include <stdlib.h>
+#include <sys/types.h>
 #include <signal.h>
 #include <unistd.h>
 #include <errno.h>
