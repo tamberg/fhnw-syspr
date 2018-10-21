@@ -17,8 +17,8 @@ Modul [syspr]( https://www.fhnw.ch/de/studium/module/6008081) von [@tamberg](htt
 - [Hands-on zu Lektion 5](../../../../fhnw-syspr-work-05/blob/master/README.md)
 
 ## Lösungsvorschlag
-- [Exit](http://www.tamberg.org/fhnw/2018/Syspr05ProzessLebenszyklusExit.pdf)
 - [fork.c](fork.c)
+- [fork_stdio_buf.pdf](https://github.com/tamberg/fhnw-syspr/blob/master/05/fork_stdio_buf.pdf)
 - [sync.c](sync.c)
 
 ## Support
