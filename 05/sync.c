@@ -1,5 +1,5 @@
-// adapted from http://man7.org/tlpi/code/online/book/procexec/fork_sig_sync.c.html
-// for hands-on https://github.com/tamberg/fhnw-syspr-work-05/blob/master/README.md
+/* adapted from http://man7.org/tlpi/code/online/book/procexec/fork_sig_sync.c.html */
+/* for hands-on https://github.com/tamberg/fhnw-syspr-work-05/blob/master/README.md */
 
 /*************************************************************************\
 *                  Copyright (C) Michael Kerrisk, 2018.                   *
@@ -11,12 +11,10 @@
 * the file COPYING.gpl-v3 for details.                                    *
 \*************************************************************************/
 
-#define _POSIX_C_SOURCE 199309L
-
 #include <stdio.h>
 #include <stdlib.h>
-#include <sys/types.h>
 #include <signal.h>
+#include <sys/types.h>
 #include <unistd.h>
 #include <errno.h>
 //#include "curr_time.h"                  /* Declaration of currTime() */
@@ -33,11 +31,14 @@ char *currTime(char *s) {
 }
 
 void printMasks(void) {
-    sigset_t blkMask, pndMask;
-    sigprocmask(SIG_SETMASK, NULL, &blkMask);
-    printf("blocked %032x\n", blkMask);
-    sigpending(&pndMask);
-    printf("pending %032x\n", pndMask);
+    // blocked
+    sigset_t myBlkMask;
+    sigprocmask(SIG_SETMASK, NULL, &myBlkMask);
+    printf("blocked %08x (%ld)\n", myBlkMask, sizeof(sigset_t));
+    // pending
+    sigset_t myPndMask;
+    sigpending(&myPndMask);
+    printf("pending %08x\n", myPndMask);
 }
 
 static void             /* Signal handler - does nothing but return */
@@ -48,6 +49,7 @@ handler(int sig)
 int
 main(int argc, char *argv[])
 {
+    printf("main\n");
     pid_t childPid;
     sigset_t blockMask, origMask, emptyMask;
     struct sigaction sa;
@@ -58,7 +60,9 @@ main(int argc, char *argv[])
     sigaddset(&blockMask, SYNC_SIG);    /* Block signal */
     if (sigprocmask(SIG_BLOCK, &blockMask, &origMask) == -1)
         errExit("sigprocmask");
+
     printMasks();
+
     sigemptyset(&sa.sa_mask);
     sa.sa_flags = SA_RESTART;
     sa.sa_handler = handler;
@@ -95,6 +99,11 @@ main(int argc, char *argv[])
 
         printf("[%s %ld] Parent about to wait for signal\n",
                 currTime("%T"), (long) getpid());
+
+        sleep(3);
+
+        printMasks();
+
         sigemptyset(&emptyMask);
         if (sigsuspend(&emptyMask) == -1 && errno != EINTR)
             errExit("sigsuspend");
@@ -104,6 +113,8 @@ main(int argc, char *argv[])
 
         if (sigprocmask(SIG_SETMASK, &origMask, NULL) == -1)
             errExit("sigprocmask");
+
+        printMasks();
 
         /* Parent carries on to do other things... */
 
