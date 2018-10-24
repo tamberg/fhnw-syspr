@@ -3,7 +3,6 @@
 # $ chmod a+x errno.sh
 # $ ./errno.sh
 
-echo "expand, compile and grep errno.h:" &&
+set -x && # show commands, https://serverfault.com/a/16208/3827
 echo '#include <errno.h>' | gcc -pthread -E - | grep errno &&
-echo "take a closer look:" &&
 cat /usr/include/arm-linux-gnueabihf/bits/errno.h | grep errno
