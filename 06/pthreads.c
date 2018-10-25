@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <pthread.h>
 
-void *run(void *arg) {
-    printf("run\n");
+void *start(void *arg) {
+    printf("start\n");
     printf("arg = %d\n", *((int *) arg));
     pthread_t id = pthread_self();
     printf("id = %lu\n", id);
@@ -12,10 +12,10 @@ void *run(void *arg) {
 int main() {
     printf("main\n");
     pthread_t thread;
-    int run_arg = 42;
-    pthread_create(&thread, NULL, run, &run_arg);
-    void *run_res;
-    pthread_join(thread, &run_res);
+    int start_arg = 42;
+    pthread_create(&thread, NULL, start, &start_arg);
+    void *start_res;
+    pthread_join(thread, &start_res);
     printf("thread = %lu\n", thread);
-    printf("result = %d\n", (int) run_res);
+    printf("result = %d\n", (int) start_res);
 }
