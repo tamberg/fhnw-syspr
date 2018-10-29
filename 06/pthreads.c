@@ -1,3 +1,4 @@
+#include <stdlib.h>
 #include <stdio.h>
 #include <pthread.h>
 
@@ -6,7 +7,9 @@ void *start(void *arg) {
     printf("arg = %d\n", *((int *) arg));
     pthread_t id = pthread_self();
     printf("id = %lu\n", id);
-    pthread_exit((void *) 0);
+    int *r = malloc(sizeof(int));
+    *r = 7;
+    pthread_exit(r);
 }
 
 int main() {
@@ -17,5 +20,5 @@ int main() {
     void *start_res;
     pthread_join(thread, &start_res);
     printf("thread = %lu\n", thread);
-    printf("result = %d\n", (int) start_res);
+    printf("result = %d\n", *((int *) start_res));
 }
