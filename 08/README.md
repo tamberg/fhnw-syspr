@@ -6,13 +6,16 @@ Modul [syspr]( https://www.fhnw.ch/de/studium/module/6008081) von [@tamberg](htt
 - [Handout](http://www.tamberg.org/fhnw/2018/Syspr08IPCMitPipesHandout.pdf)
 
 ## Beispiele
-- [x.c](x.c)
+- [simple_pipe.c](http://man7.org/tlpi/code/online/book/pipes/simple_pipe.c.html)<sup>TLPI</sup>
+- [pipe_sync.c](http://man7.org/tlpi/code/online/book/pipes/pipe_sync.c.html)<sup>TLPI</sup>
+- [pipe_ls_wc.c](http://man7.org/tlpi/code/online/book/pipes/pipe_ls_wc.c.html)<sup>TLPI</sup>
 
 ## Hands-on
 - [Hands-on zu Lektion 8](../../../../fhnw-syspr-work-08/blob/master/README.md)
 
 ## Lösungsvorschlag
-- [x.c](x.c)
+- [fifo_r.c](fifo_r.c)
+- [fifo_w.c](fifo_w.c)
 
 ## Support
 - [FHNW Syspr Slack](https://fhnw-syspr.slack.com/)
