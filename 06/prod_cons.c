@@ -19,14 +19,15 @@ buffer_t *buffer;
 
 void producer(buffer_t *b, char item) {
     pthread_mutex_lock(&b->mutex);
-   
-    while (b->occupied >= BSIZE)
+
+    while (b->occupied >= BSIZE) {
         pthread_cond_wait(&b->less, &b->mutex);
+    }
 
     assert(b->occupied < BSIZE);
 
     b->buf[b->nextin++] = item;
-    printf("p:%c, ", item);
+    printf("%c++", item);
     b->nextin %= BSIZE;
     b->occupied++;
 
@@ -37,7 +38,6 @@ void producer(buffer_t *b, char item) {
        (such as b->nextin == b->nextout) */
 
     pthread_cond_signal(&b->more);
-
     pthread_mutex_unlock(&b->mutex);
 }
 
@@ -45,13 +45,14 @@ void producer(buffer_t *b, char item) {
 char consumer(buffer_t *b) {
     char item;
     pthread_mutex_lock(&b->mutex);
-    while(b->occupied <= 0)
+    while(b->occupied <= 0) {
         pthread_cond_wait(&b->more, &b->mutex);
+    }
 
     assert(b->occupied > 0);
 
     item = b->buf[b->nextout++];
-    printf("c:%c, ", item);
+    printf("%c--", item);
     b->nextout %= BSIZE;
     b->occupied--;
 
@@ -64,11 +65,11 @@ char consumer(buffer_t *b) {
     pthread_cond_signal(&b->less);
     pthread_mutex_unlock(&b->mutex);
 
-    return(item);
+    return item;
 }
 
 void *run_producer(void *arg) {
-    int n = 10000;
+    int n = *((int *) arg);
     while(n > 0) {
         producer(buffer, 'a');
         n--;
@@ -83,11 +84,12 @@ void *run_consumer(void *arg) {
     }
 }
 
-int main() {
+int main(int argc, char *argv[]) {
     buffer = malloc(sizeof(buffer_t));
     pthread_t consumer_thread, producer_thread;
     int result = pthread_create(&consumer_thread, NULL, run_consumer, NULL);
-    result = pthread_create(&producer_thread, NULL, run_producer, NULL);
+    int n = atoi(argv[1]);
+    result = pthread_create(&producer_thread, NULL, run_producer, &n);
     result = pthread_join(producer_thread, NULL);
     result = pthread_join(consumer_thread, NULL);
 }
