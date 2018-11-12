@@ -13,8 +13,8 @@ int main() {
         perror("open");
         exit(EXIT_FAILURE);
     }
-    char buffer[] = "hello";
-    size_t size = 6;
+    char buffer[] = "hello\n";
+    size_t size = sizeof(buffer) / sizeof(buffer[0]);
     ssize_t w = write(fd, buffer, size);
     if (w == -1) {
         perror("write");
