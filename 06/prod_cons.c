@@ -41,7 +41,6 @@ void producer(buffer_t *b, char item) {
     pthread_mutex_unlock(&b->mutex);
 }
 
-
 char consumer(buffer_t *b) {
     char item;
     pthread_mutex_lock(&b->mutex);
@@ -85,9 +84,16 @@ void *run_consumer(void *arg) {
 }
 
 int main(int argc, char *argv[]) {
+    if (argc != 2) {
+        printf("usage: %s number-of-iterations\n", argv[0]);
+        exit(-1);
+    }
     buffer = malloc(sizeof(buffer_t));
+    int result = pthread_mutex_init(&(buffer->mutex), NULL);
+    result = pthread_cond_init(&(buffer->less), NULL);
+    result = pthread_cond_init(&(buffer->more), NULL);
     pthread_t consumer_thread, producer_thread;
-    int result = pthread_create(&consumer_thread, NULL, run_consumer, NULL);
+    result = pthread_create(&consumer_thread, NULL, run_consumer, NULL);
     int n = atoi(argv[1]);
     result = pthread_create(&producer_thread, NULL, run_producer, &n);
     result = pthread_join(producer_thread, NULL);
