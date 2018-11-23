@@ -9,7 +9,7 @@ Modul [syspr]( https://www.fhnw.ch/de/studium/module/6008081) von [@tamberg](htt
 - [x.c](http://man7.org/tlpi/code/online/book/x/y.c.html)<sup>TLPI</sup>
 
 ## Hands-on
-- [Hands-on zu Lektion 9](../../../../fhnw-syspr-work-10/blob/master/README.md)
+- [Hands-on zu Lektion 10](../../../../fhnw-syspr-work-10/blob/master/README.md)
 
 ## Lösungsvorschlag
 - [x.c](x.c)
