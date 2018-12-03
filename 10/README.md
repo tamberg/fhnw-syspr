@@ -13,8 +13,8 @@ Modul [syspr]( https://www.fhnw.ch/de/studium/module/6008081) von [@tamberg](htt
 - [Hands-on zu Lektion 10](../../../../fhnw-syspr-work-10/blob/master/README.md)
 
 ## Lösungsvorschlag
-- [blink.c](switch.c)
-- [blink.c](uart.c)
+- [switch.c](switch.c)
+- [uart.c](uart.c)
 
 ## Support
 - [FHNW Syspr Slack](https://fhnw-syspr.slack.com/)
