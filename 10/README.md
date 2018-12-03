@@ -6,14 +6,15 @@ Modul [syspr]( https://www.fhnw.ch/de/studium/module/6008081) von [@tamberg](htt
 - [Handout](http://www.tamberg.org/fhnw/2018/Syspr10WeitereArtenVonIOHandout.pdf)
 
 ## Beispiele
-- [x.c](http://man7.org/tlpi/code/online/book/x/y.c.html)<sup>TLPI</sup>
+- [blink.c](blink.c)
+- [input.c](input.c)
 
 ## Hands-on
 - [Hands-on zu Lektion 10](../../../../fhnw-syspr-work-10/blob/master/README.md)
 
 ## Lösungsvorschlag
-- [x.c](x.c)
-- [x.c](x.c)
+- [blink.c](switch.c)
+- [blink.c](uart.c)
 
 ## Support
 - [FHNW Syspr Slack](https://fhnw-syspr.slack.com/)
