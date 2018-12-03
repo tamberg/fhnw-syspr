@@ -28,12 +28,13 @@ int main(void) {
         client_sock,
         (struct sockaddr *) &addr,
         sizeof(struct sockaddr_in));
-//    printf("server_sock = %d\n", server_sock);
+    printf("result = %d\n", result);
 
     // send HTTP request
     char request_buf[] =
         "GET /syspr HTTP/1.1\r\n"
         "Host: tmb.gr\r\n"
+        "Connection: close\r\n"
         "\r\n";
     size_t size = sizeof(request_buf) / sizeof(request_buf[0]);
     int bytes_written = send(client_sock, request_buf, size, 0);
@@ -45,13 +46,13 @@ int main(void) {
 
     // read HTTP response
     char response_buf[BUF_SIZE];
-    int bytes_read = recv(server_sock, response_buf, BUF_SIZE, 0);
+    int bytes_read = recv(client_sock, response_buf, BUF_SIZE, 0);
     while (bytes_read > 0) {
         printf("read %d bytes\n", bytes_read);
         write(STDOUT_FILENO, response_buf, bytes_read);
-        bytes_read = recv(server_sock, response_buf, BUF_SIZE, 0);
+        bytes_read = recv(client_sock, response_buf, BUF_SIZE, 0);
     }
-    close(server_sock);
+    close(client_sock);
     printf("closed\n");
     return 0;
 }
