@@ -6,13 +6,16 @@ Modul [syspr]( https://www.fhnw.ch/de/studium/module/6008081) von [@tamberg](htt
 - [Handout](http://www.tamberg.org/fhnw/2018/Syspr11TerminalsHandout.pdf)
 
 ## Beispiele
-- [x.c](x.c)
+- [new_intr.c](http://man7.org/tlpi/code/online/book/tty/new_intr.c.html)<sup>TLPI</sup>
+- [no_echo.c](http://man7.org/tlpi/code/online/book/tty/no_echo.c.html)<sup>TLPI</sup>
+- [demo_SIGWINCH.c](http://man7.org/tlpi/code/online/book/tty/demo_SIGWINCH.c.html)
+- [tty_id.c](tty_id.c)
 
 ## Hands-on
 - [Hands-on zu Lektion 11](../../../../fhnw-syspr-work-11/blob/master/README.md)
 
 ## Lösungsvorschlag
-- [x.c](x.c)
+-
 
 ## Support
 - [FHNW Syspr Slack](https://fhnw-syspr.slack.com/)
