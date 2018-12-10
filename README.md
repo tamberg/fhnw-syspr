@@ -17,7 +17,7 @@ Modul [syspr]( https://www.fhnw.ch/de/studium/module/6008081) von [@tamberg](htt
 9. [Sockets](09/README.md)
 10. [Weitere Arten von I/O](10/README.md)
 11. [Terminals](11/README.md)
-12. [Semaphore & Shared Memory](12/README.md)
+12. [Shared Memory](12/README.md)
 13. [Message Queues](13/README.md)
 14. [Assessment II](14/README.md)
 
