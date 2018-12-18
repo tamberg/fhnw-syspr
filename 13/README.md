@@ -9,7 +9,7 @@ Modul [syspr]( https://www.fhnw.ch/de/studium/module/6008081) von [@tamberg](htt
 - [x.c](x.c)
 
 ## Hands-on
-- [Hands-on zu Lektion 12](../../../../fhnw-syspr-work-12/blob/master/README.md)
+- [Hands-on zu Lektion 13](../../../../fhnw-syspr-work-13/blob/master/README.md)
 
 ## Lösungsvorschlag
 - Kein Vorschlag
