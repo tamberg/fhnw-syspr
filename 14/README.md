@@ -4,8 +4,5 @@ Modul [syspr]( https://www.fhnw.ch/de/studium/module/6008081) von [@tamberg](htt
 ## Lektion 14: Assessment II
 - TODO
 
-## Beispiele
-- TODO
-
-## Hands-on
-- TODO
+## Lösungsvorschlag
+- Kein Lösungsvorschlag
