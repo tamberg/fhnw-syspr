@@ -5,4 +5,4 @@ Modul [syspr]( https://www.fhnw.ch/de/studium/module/6008081) von [@tamberg](htt
 - [Assessment I](http://www.tamberg.org/fhnw/2018/Syspr07Assessment.pdf)
 
 ## Lösungsvorschlag
-- TODO
+- Kein Lösungsvorschlag
