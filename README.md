@@ -33,6 +33,6 @@ Auf dem Raspberry Pi
 
 Soweit nicht anders vermerkt, gilt:
 
-* Source Code in diesem Repository ist Public Domain [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) lizenziert.
+* Source Code in diesem Repository ist Public Domain [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) (unlizenziert).
 * Source Code zum Buch [TLPI](http://www.man7.org/tlpi/) von [@mkerrisk](https://twitter.com/mkerrisk) sind unter [GNU GPLv3](https://choosealicense.com/licenses/gpl-3.0/) lizenziert.
 * Unterlagen von [@tamberg](https://twitter.com/tamberg) sind unter Creative Commons [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) lizenziert.
