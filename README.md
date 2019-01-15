@@ -32,4 +32,4 @@ Auf dem Raspberry Pi
 ## Lizenz
 
 * Code Beispiele sind Public Domain [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) lizenziert.
-* Slides sind unter Creative Commons [CC BY-SA](https://creativecommons.org/licenses/by-sa/4.0/) lizenziert.
+* Slides sind unter Creative Commons [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) lizenziert.
