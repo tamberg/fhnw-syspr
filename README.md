@@ -3,8 +3,6 @@ Modul [syspr]( https://www.fhnw.ch/de/studium/module/6008081) von [@tamberg](htt
 
 ## Slides und Code-Beispiele
 
-> Work in progress...
-
 0. [Einführung](00/README.md)
 1. [Erste Schritte in C](01/README.md)
 2. [Funktionen](02/README.md)
@@ -30,3 +28,11 @@ Auf dem Raspberry Pi
 * Repository updaten, vor jeder Lektion:<pre>
     $ cd ~/fhnw-syspr
     $ git pull</pre>
+
+## Lizenz
+
+Soweit nicht anders vermerkt, gilt:
+
+* Source Code in diesem Repository ist als Public Domain [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) deklariert.
+* Source Code zum Buch [TLPI](http://www.man7.org/tlpi/) von [@mkerrisk](https://twitter.com/mkerrisk) ist unter [GNU GPLv3](https://choosealicense.com/licenses/gpl-3.0/) lizenziert.
+* Slides von [@tamberg](https://twitter.com/tamberg) sind unter Creative Commons [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) lizenziert.
