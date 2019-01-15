@@ -21,6 +21,7 @@ Modul [syspr]( https://www.fhnw.ch/de/studium/module/6008081) von [@tamberg](htt
 - [static.c](static.c)
 - [struct.c](struct.c)
 - [swap.c](swap.c)
+- [swap.pdf](swap.pdf)
 - [sys_t.c](sys_t.c)
 - [version.c](version.c)
 
