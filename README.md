@@ -3,8 +3,6 @@ Modul [syspr]( https://www.fhnw.ch/de/studium/module/6008081) von [@tamberg](htt
 
 ## Slides und Code-Beispiele
 
-> Work in progress...
-
 0. [Einführung](00/README.md)
 1. [Erste Schritte in C](01/README.md)
 2. [Funktionen](02/README.md)
@@ -30,3 +28,8 @@ Auf dem Raspberry Pi
 * Repository updaten, vor jeder Lektion:<pre>
     $ cd ~/fhnw-syspr
     $ git pull</pre>
+
+## Lizenz
+
+* Code Beispiele sind Public Domain [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) lizenziert.
+* Slides sind unter Creative Commons [CC BY-SA](https://creativecommons.org/licenses/by-sa/4.0/) lizenziert.
