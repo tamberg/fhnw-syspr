@@ -31,5 +31,6 @@ Auf dem Raspberry Pi
 
 ## Lizenz
 
-* Code Beispiele sind Public Domain [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) lizenziert.
-* Slides sind unter Creative Commons [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) lizenziert.
+* Code Beispiele in diesem Repository sind Public Domain [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) lizenziert.
+* Code Beispiele im Buch [TLPI](http://www.man7.org/tlpi/) von [@mkerrisk](https://twitter.com/mkerrisk) sind unter [GNU GPLv3](https://choosealicense.com/licenses/gpl-3.0/) lizenziert.
+* Slides von [@tamberg](https://twitter.com/tamberg) sind unter Creative Commons [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) lizenziert.
