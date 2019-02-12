@@ -36,3 +36,7 @@ Soweit nicht anders vermerkt, gilt:
 * Source Code in diesem Repository ist als Public Domain [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) deklariert.
 * Source Code zum Buch [TLPI](http://www.man7.org/tlpi/) von [@mkerrisk](https://twitter.com/mkerrisk) ist unter [GNU GPLv3](https://choosealicense.com/licenses/gpl-3.0/) lizenziert.
 * Slides von [@tamberg](https://twitter.com/tamberg) sind unter Creative Commons [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) lizenziert.
+
+Eigenen Code publizieren?
+
+* [Wählen Sie eine open source Lizenz](https://choosealicense.com/), z.B. die einfache [MIT License](https://choosealicense.com/licenses/mit/)
