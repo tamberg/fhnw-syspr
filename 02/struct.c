@@ -10,5 +10,6 @@ Point create_point(int x, int y) {
 int main() {
     Point origin = create_point(0, 0);
     printf("(%d, %d)\n", origin.x, origin.y);
+    free(origin);
     return 0;
 }
