@@ -18,7 +18,7 @@ int main(int argc, char *argv[]) {
         printf("I'm parent %d of child %d\n", pid, pid_c);
         //int status;
         //wait(&status);
-        //printf("Done waiting for child, status %d\n", status);
+        //printf("Done waiting for child, status %d\n", WEXITSTATUS(status));
     }
     exit(0);
 }
