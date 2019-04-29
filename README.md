@@ -13,11 +13,11 @@ Modul [syspr]( https://www.fhnw.ch/de/studium/module/6008081) von [@tamberg](htt
 7. [Assessment I](07/README.md)
 8. [IPC mit Pipes](08/README.md)
 9. [Sockets](09/README.md)
-10. [Weitere Arten von I/O](10/README.md)
+10. [Terminals](10/README.md)
 11. [POSIX IPC](11/README.md)
 12. [Zeitmessung](12/README.md)
 13. [Assessment II](13/README.md)
-14. [Terminals](14/README.md)
+14. [Weitere Arten von I/O](14/README.md)
 
 ## Git
 Auf dem Raspberry Pi
