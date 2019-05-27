@@ -18,7 +18,7 @@ int main(int argc, char *argv[]) {
     clock_t t1 = times(&t1_buf);
 
     long ticks_per_s = sysconf(_SC_CLK_TCK);
-    printf("\nreal \t%lfs\nuser \t%lfs\nsys \t%lfs\n",
+    printf("\nreal \t%ld\nuser \t%lfs\nsys \t%lfs\n",
         (t1 - t0) / ticks_per_s,
         (t1_buf.tms_cutime - t0_buf.tms_cutime) / (double) ticks_per_s,
         (t1_buf.tms_cstime - t0_buf.tms_cstime) / (double) ticks_per_s);
