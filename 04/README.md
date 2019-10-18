@@ -2,8 +2,8 @@
 Modul [syspr]( https://www.fhnw.ch/de/studium/module/6008081) von [@tamberg](https://twitter.com/tamberg) für [FHNW](https://www.fhnw.ch/).
 
 ## Lektion 4: Prozesse und Signale
-- [Slides](http://www.tamberg.org/fhnw/2019/Syspr04ProzesseUndSignale.pdf)
-- [Handout](http://www.tamberg.org/fhnw/2019/Syspr04ProzesseUndSignaleHandout.pdf)
+- [Slides](http://www.tamberg.org/fhnw/2019/hs/Syspr04ProzesseUndSignale.pdf)
+- [Handout](http://www.tamberg.org/fhnw/2019/hs/Syspr04ProzesseUndSignaleHandout.pdf)
 
 ## Beispiele
 - [break.c](break.c)
