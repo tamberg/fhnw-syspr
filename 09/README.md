@@ -2,8 +2,8 @@
 Modul [syspr]( https://www.fhnw.ch/de/studium/module/6008081) von [@tamberg](https://twitter.com/tamberg) für [FHNW](https://www.fhnw.ch/).
 
 ## Lektion 9: Sockets
-- [Slides](http://www.tamberg.org/fhnw/2019/Syspr09Sockets.pdf)
-- [Handout](http://www.tamberg.org/fhnw/2019/Syspr09SocketsHandout.pdf)
+- [Slides](http://www.tamberg.org/fhnw/2019/hs/Syspr09Sockets.pdf)
+- [Handout](http://www.tamberg.org/fhnw/2019/hs/Syspr09SocketsHandout.pdf)
 
 ## Beispiele
 ### UNIX Domain Datagram Sockets
