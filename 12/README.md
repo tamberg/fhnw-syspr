@@ -2,8 +2,8 @@
 Modul [syspr]( https://www.fhnw.ch/de/studium/module/6008081) von [@tamberg](https://twitter.com/tamberg) für [FHNW](https://www.fhnw.ch/).
 
 ## Lektion 12: Zeitmessung
-- [Slides](http://www.tamberg.org/fhnw/2019/Syspr12Zeitmessung.pdf)
-- [Handout](http://www.tamberg.org/fhnw/2019/Syspr12ZeitmessungHandout.pdf)
+- [Slides](http://www.tamberg.org/fhnw/2019/hs/Syspr12Zeitmessung.pdf)
+- [Handout](http://www.tamberg.org/fhnw/2019/hs/Syspr12ZeitmessungHandout.pdf)
 
 ## Beispiele
 - [calendar_time.c](http://man7.org/tlpi/code/online/book/time/calendar_time.c.html)<sup>TLPI</sup>
