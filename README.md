@@ -19,6 +19,9 @@ Modul [syspr]( https://www.fhnw.ch/de/studium/module/6008081) von [@tamberg](htt
 13. [Assessment II](13/README.md)
 14. [Weitere Arten von I/O](14/README.md)
 
+## Support
+[FHNW syspr FS20 Slack](https://fhnw-syspr-fs20.slack.com/)
+
 ## Git
 Auf dem Raspberry Pi
 
