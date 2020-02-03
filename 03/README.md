@@ -22,6 +22,3 @@ Modul [syspr]( https://www.fhnw.ch/de/studium/module/6008081) von [@tamberg](htt
 - [clone.c](clone.c)
 - [clone_v2.c](clone_v2.c)
 - [dup.c](dup.c)
-
-## Support
-- [FHNW Syspr Slack](https://fhnw-syspr.slack.com/)

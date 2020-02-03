@@ -20,6 +20,3 @@ Modul [syspr]( https://www.fhnw.ch/de/studium/module/6008081) von [@tamberg](htt
 - [fork.c](fork.c)
 - [fork_stdio_buf.pdf](https://github.com/tamberg/fhnw-syspr/blob/master/05/fork_stdio_buf.pdf)
 - [sync.c](sync.c)
-
-## Support
-- [FHNW Syspr Slack](https://fhnw-syspr.slack.com/)

@@ -23,6 +23,3 @@ Modul [syspr]( https://www.fhnw.ch/de/studium/module/6008081) von [@tamberg](htt
 - [ouch.c](http://man7.org/tlpi/code/online/dist/signals/ouch.c.html)<sup>TLPI</sup>
 - [sigint.c](sigint.c)
 - [sigint.png](sigint.png)
-
-## Support
-- [FHNW Syspr Slack](https://fhnw-syspr.slack.com/)

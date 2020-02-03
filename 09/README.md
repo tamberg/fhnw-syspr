@@ -25,6 +25,3 @@ Modul [syspr]( https://www.fhnw.ch/de/studium/module/6008081) von [@tamberg](htt
 ## Lösungsvorschlag
 - [http_client.c](http_client.c)
 - [http_server.c](http_server.c)
-
-## Support
-- [FHNW Syspr Slack](https://fhnw-syspr.slack.com/)

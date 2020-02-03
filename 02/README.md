@@ -31,6 +31,3 @@ Modul [syspr]( https://www.fhnw.ch/de/studium/module/6008081) von [@tamberg](htt
 ## Lösungsvorschlag
 - [max.c](max.c)
 - [struct_v2.c](struct_v2.c)
-
-## Support
-- [FHNW Syspr Slack](https://fhnw-syspr.slack.com/)

@@ -19,6 +19,3 @@ Modul [syspr]( https://www.fhnw.ch/de/studium/module/6008081) von [@tamberg](htt
 ## Lösungsvorschlag
 - [pthreads.c](pthreads.c)
 - [self_join.c](self_join.c)
-
-## Support
-- [FHNW Syspr Slack](https://fhnw-syspr.slack.com/)

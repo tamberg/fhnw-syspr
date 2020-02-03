@@ -16,6 +16,3 @@ Modul [syspr]( https://www.fhnw.ch/de/studium/module/6008081) von [@tamberg](htt
 ## Lösungsvorschlag
 - [fifo_r.c](fifo_r.c)
 - [fifo_w.c](fifo_w.c)
-
-## Support
-- [FHNW Syspr Slack](https://fhnw-syspr.slack.com/)
