@@ -13,6 +13,7 @@ Modul [syspr]( https://www.fhnw.ch/de/studium/module/6008081) von [@tamberg](htt
 - [do_while.c](do_while.c)
 - [expr.c](expr.c)
 - [hello.c](hello.c)
+- [limits.c](limits.c)
 - [odd.c](odd.c)
 - [sizeof.c](sizeof.c)
 - [strings.c](strings.c)
