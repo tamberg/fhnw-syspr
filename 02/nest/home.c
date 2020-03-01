@@ -1,16 +1,16 @@
-#include "./nest.h"
+#include "./heater.h"
 
 #define FAV_TEMP 23
 
 void home_leave() {
-    while (nest_temp() > MIN_TEMP) {
-        nest_down();
+    while (heater_temp() > MIN_TEMP) {
+        heater_down();
     }
 }
 
 void home_enter() {
-    while (nest_temp() < FAV_TEMP) {
-        nest_up();
+    while (heater_temp() < FAV_TEMP) {
+        heater_up();
     }
 }
 
