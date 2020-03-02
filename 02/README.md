@@ -2,8 +2,8 @@
 Modul [syspr]( https://www.fhnw.ch/de/studium/module/6008081) von [@tamberg](https://twitter.com/tamberg) für [FHNW](https://www.fhnw.ch/).
 
 ## Lektion 2: Funktionen
-- [Slides](http://www.tamberg.org/fhnw/2019/hs/Syspr02Funktionen.pdf)
-- [Handout](http://www.tamberg.org/fhnw/2019/hs/Syspr02FunktionenHandout.pdf)
+- [Slides](http://www.tamberg.org/fhnw/2020/fs/Syspr02Funktionen.pdf)
+- [Handout](http://www.tamberg.org/fhnw/2020/fs/Syspr02FunktionenHandout.pdf)
 
 ## Beispiele
 - [count.c](count.c)
@@ -12,10 +12,10 @@ Modul [syspr]( https://www.fhnw.ch/de/studium/module/6008081) von [@tamberg](htt
 - [garbage.c](garbage.c)
 - [main.c](main.c), [f.c](f.c)
 - [map.c](map.c)
-- [nest](nest)
-  - [home.c](nest/home.c)
-  - [nest.c](nest/nest.c)
-  - [nest.h](nest/nest.h)
+- [heater](heater)
+  - [home.c](heater/home.c)
+  - [heater.c](heater/heater.c)
+  - [heater.h](heater/heater.h)
 - [power.c](power.c)
 - [scope.c](scope.c)
 - [static.c](static.c)
