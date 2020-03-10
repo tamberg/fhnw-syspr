@@ -2,8 +2,8 @@
 Modul [syspr]( https://www.fhnw.ch/de/studium/module/6008081) von [@tamberg](https://twitter.com/tamberg) für [FHNW](https://www.fhnw.ch/).
 
 ## Lektion 3: File In-/Output
-- [Slides](http://www.tamberg.org/fhnw/2019/Syspr03FileIO.pdf)
-- [Handout](http://www.tamberg.org/fhnw/2019/Syspr03FileIOHandout.pdf)
+- [Slides](http://www.tamberg.org/fhnw/2020/fs/Syspr03FileIO.pdf)
+- [Handout](http://www.tamberg.org/fhnw/2020/fs/Syspr03FileIOHandout.pdf)
 
 ## Beispiele
 - [atomic_append.c](http://man7.org/tlpi/code/online/dist/fileio/atomic_append.c.html)<sup>TLPI</sup>
@@ -19,6 +19,4 @@ Modul [syspr]( https://www.fhnw.ch/de/studium/module/6008081) von [@tamberg](htt
 
 ## Lösungsvorschlag
 - [cpu_temp.c](cpu_temp.c)
-- [clone.c](clone.c)
-- [clone_v2.c](clone_v2.c)
 - [dup.c](dup.c)
