@@ -1,15 +1,33 @@
 # System-Programmierung
 Modul [syspr]( https://www.fhnw.ch/de/studium/module/6008081) von [@tamberg](https://twitter.com/tamberg) für [FHNW](https://www.fhnw.ch/).
 
-## Lektion 10: Terminals
-- [Slides](http://www.tamberg.org/fhnw/2019/hs/Syspr10Terminals.pdf)
-- [Handout](http://www.tamberg.org/fhnw/2019/hs/Syspr10TerminalsHandout.pdf)
+## Lektion 10: POSIX IPC
+- [Slides](http://www.tamberg.org/fhnw/2020/fs/Syspr10PosixIPC.pdf)
+- [Handout](http://www.tamberg.org/fhnw/2020/fs/Syspr10PosixIPCHandout.pdf)
 
 ## Beispiele
-- [new_intr.c](http://man7.org/tlpi/code/online/book/tty/new_intr.c.html)<sup>TLPI</sup>
-- [no_echo.c](http://man7.org/tlpi/code/online/book/tty/no_echo.c.html)<sup>TLPI</sup>
-- [demo_SIGWINCH.c](http://man7.org/tlpi/code/online/book/tty/demo_SIGWINCH.c.html)<sup>TLPI</sup>
-- [tty_id.c](tty_id.c)
+
+### POSIX Message Queues
+- [mq_notify_via_signal.c](http://man7.org/tlpi/code/online/book/pmsg/mq_notify_via_signal.c.html)<sup>TLPI</sup>
+- [mq_notify_via_thread.c](http://man7.org/tlpi/code/online/book/pmsg/mq_notify_via_thread.c.html)<sup>TLPI</sup>
+- [pmsg_create.c](http://man7.org/tlpi/code/online/book/pmsg/pmsg_create.c.html)<sup>TLPI</sup>
+- [pmsg_getattr.c](http://man7.org/tlpi/code/online/book/pmsg/pmsg_getattr.c.html)<sup>TLPI</sup>
+- [pmsg_receive.c](http://man7.org/tlpi/code/online/book/pmsg/pmsg_receive.c.html)<sup>TLPI</sup>
+- [pmsg_send.c](http://man7.org/tlpi/code/online/book/pmsg/pmsg_send.c.html)<sup>TLPI</sup>
+- [pmsg_unlink.c](http://man7.org/tlpi/code/online/book/pmsg/pmsg_unlink.c.html)<sup>TLPI</sup>
+
+### POSIX Semaphore
+- [psem_create.c](http://man7.org/tlpi/code/online/book/psem/psem_create.c.html)<sup>TLPI</sup>
+- [psem_getvalue.c](http://man7.org/tlpi/code/online/book/psem/psem_getvalue.c.html)<sup>TLPI</sup>
+- [psem_post.c](http://man7.org/tlpi/code/online/book/psem/psem_post.c.html)<sup>TLPI</sup>
+- [psem_unlink.c](http://man7.org/tlpi/code/online/book/psem/psem_unlink.c.html)<sup>TLPI</sup>
+- [psem_wait.c](http://man7.org/tlpi/code/online/book/psem/psem_wait.c.html)<sup>TLPI</sup>
+
+### POSIX Shared Memory
+- [pshm_create.c](http://man7.org/tlpi/code/online/book/pshm/pshm_create.c.html)<sup>TLPI</sup>
+- [pshm_read.c](http://man7.org/tlpi/code/online/book/pshm/pshm_read.c.html)<sup>TLPI</sup>
+- [pshm_unlink.c](http://man7.org/tlpi/code/online/book/pshm/pshm_unlink.c.html)<sup>TLPI</sup>
+- [pshm_write.c](http://man7.org/tlpi/code/online/book/pshm/pshm_write.c.html)<sup>TLPI</sup>
 
 ## Hands-on
 - [Hands-on zu Lektion 10](../../../../fhnw-syspr-work-10/blob/master/README.md)
