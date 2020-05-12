@@ -13,7 +13,6 @@ int main() {
         size_t size = sizeof(buf) / sizeof(buf[0]);
         int w = write(pipe_fd[1], buf, size);
         close(pipe_fd[1]); // sends EOF
-        wait(NULL);
     } else { // parent
         close(pipe_fd[1]);
         char buf[1];
