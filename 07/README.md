@@ -2,8 +2,8 @@
 Modul [syspr]( https://www.fhnw.ch/de/studium/module/6008081) von [@tamberg](https://twitter.com/tamberg) für [FHNW](https://www.fhnw.ch/).
 
 ## Lektion 7: Threads und Synchronisation
-- [Slides](http://www.tamberg.org/fhnw/2020/fs/Syspr06ThreadsUndSynchronisation.pdf)
-- [Handout](http://www.tamberg.org/fhnw/2020/fs/Syspr06ThreadsUndSynchronisationHandout.pdf)
+- [Slides](http://www.tamberg.org/fhnw/2020/fs/Syspr07ThreadsUndSynchronisation.pdf)
+- [Handout](http://www.tamberg.org/fhnw/2020/fs/Syspr07ThreadsUndSynchronisationHandout.pdf)
 
 ## Beispiele
 - [eintr.c](eintr.c)
@@ -14,7 +14,7 @@ Modul [syspr]( https://www.fhnw.ch/de/studium/module/6008081) von [@tamberg](htt
 - [thread_incr_mutex.c](http://man7.org/tlpi/code/online/dist/threads/thread_incr_mutex.c.html)<sup>TLPI</sup>
 
 ## Hands-on
-- [Hands-on zu Lektion 6](../../../../fhnw-syspr-work-06/blob/master/README.md)
+- [Hands-on zu Lektion 7](../../../../fhnw-syspr-work-07/blob/master/README.md)
 
 ## Lösungsvorschlag
 - [pthreads.c](pthreads.c)
