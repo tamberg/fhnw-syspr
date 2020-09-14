@@ -10,13 +10,13 @@ Modul [syspr]( https://www.fhnw.ch/de/studium/module/6008081) von [@tamberg](htt
 4. [Prozesse und Signale](04/README.md)
 5. [Prozess Lebenszyklus](05/README.md)
 6. [Threads und Synchronisation](06/README.md)
-7. <s>[Assessment](07/README.md)</s>
+7. [Assessment I](07/README.md)
 8. [IPC mit Pipes](08/README.md)
 9. [Sockets](09/README.md)
 10. [POSIX IPC](10/README.md)
 11. [Zeitmessung](11/README.md)
 12. [Terminals](12/README.md)
-13. [Assessment](13/README.md)
+13. [Assessment II](13/README.md)
 14. [Weitere Arten von I/O](14/README.md)
 
 ## Git
