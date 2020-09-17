@@ -7,5 +7,5 @@ int main() {
         j = i;
         i++;
     }
-    printf("%d, %d\n", i, j);
+    printf("%d, %d\n", i, j); // %ld on 64-bit machines
 }
