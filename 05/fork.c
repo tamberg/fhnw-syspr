@@ -20,5 +20,5 @@ int main(int argc, char *argv[]) {
         //wait(&status);
         //printf("Done waiting for child, status %d\n", WEXITSTATUS(status));
     }
-    exit(0);
+    return 0;
 }
