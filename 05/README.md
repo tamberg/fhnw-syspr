@@ -6,6 +6,7 @@ Modul [syspr]( https://www.fhnw.ch/de/studium/module/6008081) von [@tamberg](htt
 - [Handout](http://www.tamberg.org/fhnw/2020/hs/Syspr05ProzessLebenszyklusHandout.pdf)
 
 ## Beispiele
+- [exec.c](exec.c) (starts [hello.c](hello.c))
 - [exit_handlers.c](http://man7.org/tlpi/code/online/dist/procexec/exit_handlers.c.html)<sup>TLPI</sup>
 - [footprint.c](http://man7.org/tlpi/code/online/dist/procexec/footprint.c.html)<sup>TLPI</sup>
 - [fork_file_sharing.c](http://man7.org/tlpi/code/online/dist/procexec/fork_file_sharing.c.html)<sup>TLPI</sup>

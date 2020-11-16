@@ -6,8 +6,11 @@ Modul [syspr]( https://www.fhnw.ch/de/studium/module/6008081) von [@tamberg](htt
 - [Handout](http://www.tamberg.org/fhnw/2020/hs/Syspr07ThreadsUndSynchronisationHandout.pdf)
 
 ## Beispiele
+- [cond.c](cond.c)
 - [eintr.c](eintr.c)
 - [errno.c](errno.c)
+- [mutex.c](mutex.c)
+- [prod.c](prod.c)
 - [prod_condvar.c](http://man7.org/tlpi/code/online/dist/threads/prod_condvar.c.html)<sup>TLPI</sup>
 - [prod_no_condvar.c](http://man7.org/tlpi/code/online/dist/threads/prod_no_condvar.c.html)<sup>TLPI</sup>
 - [thread_incr.c](http://man7.org/tlpi/code/online/dist/threads/thread_incr.c.html)<sup>TLPI</sup>
