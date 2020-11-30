@@ -8,8 +8,6 @@ Modul [syspr]( https://www.fhnw.ch/de/studium/module/6008081) von [@tamberg](htt
 ## Beispiele
 
 ### POSIX Message Queues
-- [mq_notify_via_signal.c](http://man7.org/tlpi/code/online/book/pmsg/mq_notify_via_signal.c.html)<sup>TLPI</sup>
-- [mq_notify_via_thread.c](http://man7.org/tlpi/code/online/book/pmsg/mq_notify_via_thread.c.html)<sup>TLPI</sup>
 - [pmsg_create.c](http://man7.org/tlpi/code/online/book/pmsg/pmsg_create.c.html)<sup>TLPI</sup>
 - [pmsg_getattr.c](http://man7.org/tlpi/code/online/book/pmsg/pmsg_getattr.c.html)<sup>TLPI</sup>
 - [pmsg_receive.c](http://man7.org/tlpi/code/online/book/pmsg/pmsg_receive.c.html)<sup>TLPI</sup>
