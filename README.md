@@ -20,7 +20,7 @@ Modul [syspr]( https://www.fhnw.ch/de/studium/module/6008081) von [@tamberg](htt
 14. [Abschluss](14/README.md)
 
 ## Git
-Auf dem Raspberry Pi
+Auf Linux
 
 * Repository klonen:<pre>
     $ cd ~
