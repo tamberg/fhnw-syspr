@@ -15,7 +15,7 @@ Modul [syspr]( https://www.fhnw.ch/de/studium/module/6008081) von [@tamberg](htt
 9. [Sockets](09/README.md)
 10. [POSIX IPC](10/README.md)
 11. [Zeitmessung](11/README.md)
-12. <s>[Terminals](12/README.md)</s>
+12. [Terminals](12/README.md)
 13. [Assessment II](13/README.md)
 14. [Weitere Arten von I/O](14/README.md)
 
