@@ -1,12 +1,12 @@
 #include <stdio.h>
 
 int main() {
-    //float temp_values[3];
-    float temp_values[3] = { 20.1, 23, 15.2 };
-    printf("%.1f\n", temp_values[1]);
-    temp_values[1] =  7.0;
-    printf("%.1f\n", temp_values[2]);
-    int n = sizeof(temp_values) / sizeof(temp_values[0]);
+    //float values[3];
+    float values[3] = { 20.1, 23, 15.2 };
+    printf("%.1f\n", values[1]);
+    values[1] = 7.0;
+    printf("%.1f\n", values[2]);
+    int n = sizeof(values) / sizeof(values[0]);
     printf("%d\n", n);
 }
 
