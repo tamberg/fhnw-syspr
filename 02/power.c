@@ -11,9 +11,9 @@ int power(int b, int n) {
 }
 
 int main() {
-    int b = 2;
-    int n = 5;
-    int p = power(b, n);
-    printf("%d^%d = %d\n", b, n, p);
+    int a = 2;
+    int m = 5;
+    int q = power(a, m);
+    printf("%d^%d = %d\n", a, m, q);
     return 0;
 }
