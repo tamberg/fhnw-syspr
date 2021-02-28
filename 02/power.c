@@ -1,13 +1,13 @@
 #include <stdio.h>
 
-int power(int base, int n) {
-    int result = 1;
+int power(int b, int n) {
+    int p = 1;
     while (n > 0) {
-        result *= base;
+        p = p * b;
         n--;
     }
     // n == 0
-    return result;
+    return p;
 }
 
 int main() {
