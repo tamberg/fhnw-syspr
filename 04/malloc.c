@@ -33,9 +33,10 @@ void test1() {
     printf("%p: %d\n", (void *) p, *p);
     printf("%p: %d\n", (void *) q, *q);
     printf("%p: %d\n", (void *) r, *r);
-    my_free(p);
-    my_free(q);
+    // reverse order
     my_free(r);
+    my_free(q);
+    my_free(p);
 }
 
 void test2() {
@@ -45,9 +46,9 @@ void test2() {
     printf("%p: %d\n", (void *) p, *p);
     printf("%p: %d\n", (void *) q, *p);
     printf("%p: %d\n", (void *) r, *p);
-    my_free(r);
-    my_free(q);
     my_free(p);
+    my_free(q);
+    my_free(r);
 }
 
 int main() {
