@@ -28,18 +28,17 @@ void my_free(void *p) {
 }
 
 void test1() {
-    //void *b = sbrk(0);
     int *p = my_malloc(sizeof(int));
     int *q = my_malloc(sizeof(int));
     int *r = my_malloc(sizeof(int));
     printf("%p: %d\n", (void *) p, *p);
     printf("%p: %d\n", (void *) q, *q);
     printf("%p: %d\n", (void *) r, *r);
-    // reverse order
+    // call my_free() in reverse order
     my_free(r);
     my_free(q);
     my_free(p);
-    //assert(sbrk(0) == (void *) b);
+    // assert memory is freed again
     assert(sbrk(0) == (void *) p);
 }
 
