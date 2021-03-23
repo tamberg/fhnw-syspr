@@ -4,6 +4,7 @@
 #include <stdlib.h>
 #include <unistd.h>
 #include <errno.h>
+#include <assert.h>
 
 // naive implementation
 // call sequence matters
@@ -27,6 +28,7 @@ void my_free(void *p) {
 }
 
 void test1() {
+    //void *b = sbrk(0);
     int *p = my_malloc(sizeof(int));
     int *q = my_malloc(sizeof(int));
     int *r = my_malloc(sizeof(int));
@@ -37,6 +39,8 @@ void test1() {
     my_free(r);
     my_free(q);
     my_free(p);
+    //assert(sbrk(0) == (void *) b);
+    assert(sbrk(0) == (void *) p);
 }
 
 void test2() {
