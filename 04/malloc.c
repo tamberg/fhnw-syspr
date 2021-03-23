@@ -12,8 +12,7 @@ void *my_malloc(size_t size) {
     printf("my_malloc(%lu)\n", (unsigned long) size);
     void *p = sbrk(size);
     if (p == (void *) -1) {
-        printf("my_malloc: error %d\n", errno);
-        exit(-1);
+        return NULL;
     }
     return p;
 }
@@ -22,23 +21,38 @@ void my_free(void *p) {
     printf("my_free(%p)\n", p);
     int result = brk(p);
     if (result == -1) {
-        printf("my_free: error %d\n", errno);
+        perror("brk");
         exit(-1);
     }
 }
 
-void test() {
-    int n = 3;
-    int *p = my_malloc(n * sizeof(int));
-    for (int i = 0; i < n; i++) {
-        printf("%p: %d\n", (void *) p, *p);
-        p++;
-    }
-    p -= n;
+void test1() {
+    int *p = my_malloc(sizeof(int));
+    int *q = my_malloc(sizeof(int));
+    int *r = my_malloc(sizeof(int));
+    printf("%p: %d\n", (void *) p, *p);
+    printf("%p: %d\n", (void *) q, *q);
+    printf("%p: %d\n", (void *) r, *r);
+    my_free(p);
+    my_free(q);
+    my_free(r);
+}
+
+void test2() {
+    int *p = my_malloc(sizeof(int));
+    int *q = my_malloc(sizeof(int));
+    int *r = my_malloc(sizeof(int));
+    printf("%p: %d\n", (void *) p, *p);
+    printf("%p: %d\n", (void *) q, *p);
+    printf("%p: %d\n", (void *) r, *p);
+    my_free(r);
+    my_free(q);
     my_free(p);
 }
 
 int main() {
-    test();
-    test();
+    test1();
+    test1();
+    test2();
+    test2();
 }
