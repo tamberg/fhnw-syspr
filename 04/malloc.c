@@ -49,14 +49,15 @@ void test2() {
     printf("%p: %d\n", (void *) p, *p);
     printf("%p: %d\n", (void *) q, *p);
     printf("%p: %d\n", (void *) r, *p);
+    // call my_free() in any order
     my_free(p);
-    my_free(q);
     my_free(r);
+    my_free(q);
+    // assert memory is freed again
+    assert(sbrk(0) == (void *) p);
 }
 
 int main() {
     test1();
-    test1();
-    test2();
     test2();
 }
