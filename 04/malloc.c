@@ -38,7 +38,7 @@ void test1() {
     my_free(r);
     my_free(q);
     my_free(p);
-    // assert memory is freed again
+    // assert memory has been freed
     assert(sbrk(0) == (void *) p);
 }
 
@@ -53,7 +53,7 @@ void test2() {
     my_free(p);
     my_free(r);
     my_free(q);
-    // assert memory is freed again
+    // assert memory has been freed
     assert(sbrk(0) == (void *) p);
 }
 
