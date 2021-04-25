@@ -2,12 +2,11 @@
 Modul [syspr]( https://www.fhnw.ch/de/studium/module/6008081) von [@tamberg](https://twitter.com/tamberg) für [FHNW](https://www.fhnw.ch/).
 
 ## Lektion 5: Prozess Lebenszyklus
-- [Slides](http://www.tamberg.org/fhnw/2020/hs/Syspr05ProzessLebenszyklus.pdf)
-- [Handout](http://www.tamberg.org/fhnw/2020/hs/Syspr05ProzessLebenszyklusHandout.pdf)
+- [Slides](http://www.tamberg.org/fhnw/2021/fs/Syspr05ProzessLebenszyklus.pdf)
+- [Handout](http://www.tamberg.org/fhnw/2021/fs/Syspr05ProzessLebenszyklusHandout.pdf)
 
 ## Beispiele
 - [exec.c](exec.c) (starts [hello.c](hello.c))
-- [exit_handlers.c](http://man7.org/tlpi/code/online/dist/procexec/exit_handlers.c.html)<sup>TLPI</sup>
 - [footprint.c](http://man7.org/tlpi/code/online/dist/procexec/footprint.c.html)<sup>TLPI</sup>
 - [fork_file_sharing.c](http://man7.org/tlpi/code/online/dist/procexec/fork_file_sharing.c.html)<sup>TLPI</sup>
 - [fork_sig_sync.c](http://man7.org/tlpi/code/online/dist/procexec/fork_sig_sync.c.html)<sup>TLPI</sup> bzw. [sync.c](sync.c)
