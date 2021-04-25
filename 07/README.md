@@ -2,8 +2,8 @@
 Modul [syspr]( https://www.fhnw.ch/de/studium/module/6008081) von [@tamberg](https://twitter.com/tamberg) für [FHNW](https://www.fhnw.ch/).
 
 ## Lektion 7: Threads und Synchronisation
-- [Slides](http://www.tamberg.org/fhnw/2020/hs/Syspr07ThreadsUndSynchronisation.pdf)
-- [Handout](http://www.tamberg.org/fhnw/2020/hs/Syspr07ThreadsUndSynchronisationHandout.pdf)
+- [Slides](http://www.tamberg.org/fhnw/2021/fs/Syspr07ThreadsUndSynchronisation.pdf)
+- [Handout](http://www.tamberg.org/fhnw/2021/fs/Syspr07ThreadsUndSynchronisationHandout.pdf)
 
 ## Beispiele
 - [cond.c](cond.c)
