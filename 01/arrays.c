@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main() {
+int main(void) {
     //float values[3];
     float values[3] = { 20.1, 23, 15.2 };
     printf("%.1f\n", values[1]);
