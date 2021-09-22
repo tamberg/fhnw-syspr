@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main() {
+int main(void) {
     int i = 23;
     int *p;
     p = &i;

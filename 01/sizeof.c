@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main() {
+int main(void) {
     printf("sizeof(char) = %d\n", sizeof(char));
     printf("sizeof(short) = %d\n", sizeof(short));
     printf("sizeof(int) = %d\n", sizeof(int));

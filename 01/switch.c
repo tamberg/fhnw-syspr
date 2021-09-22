@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main() {
+int main(void) {
     int result;
     int ch = getchar();
     switch (ch) {

@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main() {
+int main(void) {
     typedef struct point { int x; int y; } Point;
     Point p = { 3, 2 };
     Point q;

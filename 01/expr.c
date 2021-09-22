@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 int main(void) {
-    int a, b;
+    int a;
+    int b;
     a = 1 + 2 * 3; // Punkt vor Strich
     b = 6 * a; // b = 6 * (1 + 2 * 3)
     printf("a = %d\n", a);

@@ -8,7 +8,7 @@ typedef struct node {
     struct node *children[MAX_CHILDREN];
 } Node;
 
-int main() {
+int main(void) {
     Node *n00 = malloc(sizeof(Node));
     n00->label = "I am left left";
     n00->children[0] = NULL;

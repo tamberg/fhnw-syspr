@@ -4,7 +4,7 @@
 // 0xEF => E, F => 1 1 1 0, 1 1 1 1 => Big Endian
 // Verify on Linux with $ lscpu
 
-int main() {
+int main(void) {
     typedef union packet {
         unsigned char byte_value;
         struct bit_layout {

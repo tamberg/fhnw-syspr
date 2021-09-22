@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main (){
+int main (void) {
     //unsigned long v = 18446744073709551615UL;
     unsigned long v = 4294967295;
     //int v = -2147483648;

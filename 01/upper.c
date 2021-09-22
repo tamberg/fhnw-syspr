@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main() {
+int main(void) {
     int c = getchar();
     int result;
     if (('A' <= c) && (c <= 'Z')) { // for ASCII

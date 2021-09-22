@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <limits.h>
 
-int main () {
+int main (void) {
     // char
     const int CHAR_SIZE = sizeof(char);
     const int SCHAR_SIZE = sizeof(signed char);

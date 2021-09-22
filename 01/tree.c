@@ -7,7 +7,7 @@ typedef struct node {
     struct node *right;
 } Node;
 
-int main() {	
+int main(void) {	
     Node *ll = malloc(sizeof(Node));
     ll->label = "I am left left";
     ll->left = NULL;

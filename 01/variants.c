@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main() {
+int main(void) {
     typedef union variant {
         int int_value;
         float float_value;
