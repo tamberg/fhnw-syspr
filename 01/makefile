@@ -1,7 +1,7 @@
 CC=gcc 
 CFLAGS=-std=c99 -pedantic -pedantic-errors -Werror -Wall -Wextra
 
-all: args arr_ptr arrays basics bits boolean do_while expr hello odd pointers range sizeof strings structs switch typedef unions variants
+all: args arr_ptr arrays basics bits boolean do_while expr hello odd pointers sizeof strings structs switch typedef unions upper variants
 
 basics: basics.c
 bits: bits.c
@@ -11,13 +11,13 @@ expr: expr.c
 hello: hello.c
 odd: odd.c
 pointers: pointers.c
-range: range.c
 sizeof: sizeof.c
 strings: strings.c
 structs: structs.c
 switch: switch.c
 typedef: typedef.c
 unions: unions.c
+upper: upper.c
 variants: variants.c
 
 clean:
@@ -32,11 +32,11 @@ clean:
 	rm -f hello
 	rm -f odd
 	rm -f pointers
-	rm -f range
 	rm -f sizeof
 	rm -f strings
 	rm -f structs
 	rm -f switch
 	rm -f typedef
 	rm -f unions
+	rm -f upper
 	rm -f variants
