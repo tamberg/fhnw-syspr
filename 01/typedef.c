@@ -5,6 +5,7 @@ int main(void) {
     Point p = { 3, 2 };
     Point q;
     q.x = p.y;
+    q.y = 0;
     printf("p = (%d, %d)\n", p.x, p.y);
     printf("q = (%d, %d)\n", q.x, q.y);
     typedef struct rectangle { Point a; Point b; } Rectangle;
