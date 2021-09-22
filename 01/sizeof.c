@@ -7,6 +7,7 @@ int main() {
     printf("sizeof(unsigned int) = %d\n", sizeof(unsigned int));
     printf("sizeof(long) = %d\n", sizeof(long));
     printf("sizeof(unsigned long) = %d\n", sizeof(unsigned long));
+    printf("sizeof(long long) = %d\n", sizeof(long long));
     printf("sizeof(float) = %d\n", sizeof(float));
     printf("sizeof(double) = %d\n", sizeof(double));
     return 0;
