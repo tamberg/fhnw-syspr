@@ -1,5 +1,6 @@
 //#include <sys/types.h>
 
-int main() {
+int main(void) {
     pid_t id;
+    return 0;
 }
