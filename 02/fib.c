@@ -8,7 +8,7 @@ int f(int n) {
     }
 }
 
-int main() {
+int main(void) {
     for (int i = 0; i < 32; i++)  {
         printf("%d\n", f(i));
     }
