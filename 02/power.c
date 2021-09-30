@@ -10,7 +10,7 @@ int power(int b, int n) {
     return p;
 }
 
-int main() {
+int main(void) {
     int a = 2;
     int m = 5;
     int q = power(a, m);
