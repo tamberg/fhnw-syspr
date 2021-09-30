@@ -1,6 +1,6 @@
 void f(void);
 
-int main() {
+int main(void) {
 	f();
 	return 0;
 }
