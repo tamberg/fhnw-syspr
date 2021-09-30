@@ -2,14 +2,14 @@
 
 int i = 0;
 
-void f() {
+void f(void) {
     printf("%d\n", i);
     i++;
 }
 
 void g(int i); // forward declaration
 
-int main() {
+int main(void) {
     printf("%d\n", i);
     int i = 23;
     printf("%d\n", i);
