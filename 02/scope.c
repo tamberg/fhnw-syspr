@@ -24,6 +24,7 @@ int main(void) {
     g(i); // without the above forward declaration
     // g is implicitly defined as int g(int i);
     printf("%d\n", i);
+    return 0;
 }
 
 void g(int i) {
