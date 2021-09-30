@@ -10,7 +10,8 @@ void show_secret() {
     printf("%d\n", garbage);
 }
 
-int main() {
+int main(void) {
     keep_secret();
     show_secret();
+    return 0;
 }
