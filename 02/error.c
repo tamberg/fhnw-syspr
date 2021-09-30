@@ -10,7 +10,7 @@
 // $ sudo ./error
 // (OK)
 
-int main() {
+int main(void) {
     int fd = open("/var/log/syslog", O_RDWR);
     if (fd == -1) {
         printf("error: %d", errno);
