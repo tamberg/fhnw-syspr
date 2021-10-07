@@ -13,7 +13,7 @@ void error(char *fun_name) {
     exit(-1);
 }
 
-int main() {
+int main(void) {
     char template[] = "/tmp/my-XXXXXX";
     int fd = mkstemp(template);
     if (fd == -1) {

@@ -5,7 +5,7 @@
 
 #define BUF_SIZE 7
 
-int main() {
+int main(void) {
     char buf[BUF_SIZE];
     int fd0 = open("/sys/class/thermal/thermal_zone0/temp", O_RDONLY);
     int fd1 = open("./temp.csv", O_CREAT|O_WRONLY|O_TRUNC|O_APPEND, S_IRUSR|S_IWUSR);

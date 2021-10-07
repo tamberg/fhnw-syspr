@@ -2,7 +2,7 @@
 #include <sys/stat.h>
 #include <fcntl.h>
 
-int main() {
+int main(void) {
     char *f = "./dup.txt";
     int fd1 = open(f, O_RDWR | O_CREAT | O_TRUNC, S_IRUSR | S_IWUSR);
     int fd2 = dup(fd1);

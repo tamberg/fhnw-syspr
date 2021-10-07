@@ -15,7 +15,7 @@ void error(char *fun_name) {
     exit(-1);
 }
 
-int main() {
+int main(void) {
     int fd = open("truncate.txt", O_RDWR|O_CREAT, S_IRUSR|S_IWUSR);
     if (fd == -1) {
         error("open");

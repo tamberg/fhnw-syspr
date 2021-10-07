@@ -4,7 +4,7 @@
 
 #define BUF_SIZE 1024
 
-int main() {
+int main(void) {
     char buf[BUF_SIZE];
     int fd = open("./clone.c", O_RDONLY);
     int r = read(fd, buf, BUF_SIZE);

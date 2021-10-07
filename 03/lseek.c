@@ -5,7 +5,7 @@
 
 #define BUF_SIZE 128 //1024
 
-int main() {
+int main(void) {
     char buf[BUF_SIZE];
     int fd = open("./lseek.c", O_RDONLY);
     ssize_t r = read(fd, buf, BUF_SIZE);

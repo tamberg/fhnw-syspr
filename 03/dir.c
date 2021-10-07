@@ -9,7 +9,7 @@ void error(char *fun_name) {
     exit(-1);
 }
 
-int main() {
+int main(void) {
     //const char *path = "./my_dir/my_sub_dir";
     const char *path = "./my_dir";
     mode_t mode = S_IRUSR | S_IWUSR | S_IXUSR;

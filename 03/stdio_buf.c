@@ -10,7 +10,7 @@ void error(char *fun_name) {
     exit(-1);
 }
 
-int main() {
+int main(void) {
     char buf[BUF_SIZE];
     FILE *stream = stdout;
     errno = 0; // setvbuf may set errno
