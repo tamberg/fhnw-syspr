@@ -2,7 +2,7 @@
 #include <pthread.h>
 
 void *start(void *arg) {
-    printf("New thread running ...\n");
+    printf("thread started...\n");
     return NULL;
 }
 
@@ -11,6 +11,6 @@ int main() {
     pthread_t thread;
     pthread_create(&thread, NULL, start, NULL);
     pthread_join(thread, NULL);
-    printf("Thread joined\n");
+    printf("thread joined\n");
     return 0;
 }
