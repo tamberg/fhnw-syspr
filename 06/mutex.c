@@ -6,7 +6,7 @@
 #include <pthread.h>
 
 pthread_mutex_t m = PTHREAD_MUTEX_INITIALIZER;
-int g = 0;
+volatile int g = 0;
 int n;
 
 void *start(void *arg) {
