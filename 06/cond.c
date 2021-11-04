@@ -1,48 +1,49 @@
-#include <pthread.h>
 #include <stdio.h>
 #include <stdlib.h>
+#include <pthread.h>
 #include <unistd.h>
 
-pthread_mutex_t m = PTHREAD_MUTEX_INITIALIZER;
-pthread_cond_t not_empty = PTHREAD_COND_INITIALIZER;
-pthread_cond_t not_full = PTHREAD_COND_INITIALIZER;
+#define STOCK_MAX 32
 
-int n = 10; // max number of items
-int i = 0; // shared resource
+pthread_mutex_t m = PTHREAD_MUTEX_INITIALIZER;
+pthread_cond_t not_full = PTHREAD_COND_INITIALIZER;
+pthread_cond_t not_empty = PTHREAD_COND_INITIALIZER;
+
+volatile int stock = 0;
 
 void *produce(void *arg) {
     while (1) {
-        pthread_mutex_lock(&m);
-        if (i == n) { // full
-            printf("produce waiting for not_full\n");
-            pthread_cond_wait(&not_full, &m);
-        } else { // i < n
-            i++;
-            printf("produced one item, i = %d\n", i);
-            pthread_cond_signal(&not_empty);
+        pthread_mutex_lock(&m); // blocking
+        // critical section >>
+        // while instead of if because of spurious wake-ups
+        while (stock == STOCK_MAX) { // full
+            pthread_cond_wait(&not_full, &m); // blocking
         }
-        sleep(3); // s
+        stock++;
+        pthread_cond_signal(&not_empty);
+        printf("producer, stock = %d\n", stock);
+        // << critical section
         pthread_mutex_unlock(&m);
     }
 }
 
 void *consume(void *arg) {
     while (1) {
-        pthread_mutex_lock(&m);
-        if (i == 0) { // empty
-            printf("consume waiting for not_empty\n");
-            pthread_cond_wait(&not_empty, &m);
-        } else { // i > 0
-            i--;
-            printf("consumed one item, i = %d\n", i);
-            pthread_cond_signal(&not_full);
+        pthread_mutex_lock(&m); // blocking
+        // critical section >>
+        // while instead of if because of spurious wake-ups
+        while (stock == 0) { // empty
+            pthread_cond_wait(&not_empty, &m); // blocking
         }
-        sleep(1); // s
+        stock--;
+        pthread_cond_signal(&not_full);
+        printf("consumer, stock = %d\n", stock);
+        // << critical section
         pthread_mutex_unlock(&m);
     }
 }
 
-int main() {
+int main(int argc, char *argv[]) {
     pthread_t t1;
     pthread_t t2;
     pthread_create(&t1, NULL, produce, NULL);
