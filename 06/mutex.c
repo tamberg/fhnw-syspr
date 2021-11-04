@@ -1,19 +1,22 @@
-#include <pthread.h>
+// Two threads iterate a global variable correctly,
+// as the critical section is protected by a mutex.
+
 #include <stdio.h>
 #include <stdlib.h>
+#include <pthread.h>
 
 pthread_mutex_t m = PTHREAD_MUTEX_INITIALIZER;
 int g = 0;
 int n;
 
 void *start(void *arg) {
-    //pthread_mutex_lock(&m);
     for (int i = 0; i < n; i++) {
-        pthread_mutex_lock(&m);
+        pthread_mutex_lock(&m); // blocking
+        // critical section >>
         g++;
+        // << critical section
         pthread_mutex_unlock(&m);
     }
-    //pthread_mutex_unlock(&m);
 }
 
 int main(int argc, char *argv[]) {
