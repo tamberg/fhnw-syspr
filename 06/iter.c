@@ -5,7 +5,7 @@
 #include <stdlib.h>
 #include <pthread.h>
 
-int g = 0;
+volatile int g = 0;
 int n;
 
 void *start(void *arg) {
