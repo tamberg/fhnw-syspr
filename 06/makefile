@@ -1,19 +1,21 @@
 CC=gcc
 CFLAGS=-std=c99 -pedantic -pedantic-errors -Werror -Wall -Wextra -pthread
 
-all: cond eintr iter mutex prod thread thread_arg
+all: eintr iter iter_mutex prod prod_cond thread thread_arg
 
-cond: cond.c
 eintr: eintr.c
 iter: iter.c
-mutex: mutex.c
+iter_mutex: iter_mutex.c
+prod: prod.c
+prod_cond: prod_cond.c
 thread: thread.c
 thread_arg: thread_arg.c
 
 clean:
-	rm -f cond
 	rm -f eintr
 	rm -f iter
-	rm -f mutex
+	rm -f iter_mutex
+	rm -f prod
+	rm -f prod_cond
 	rm -f thread
 	rm -f thread_arg
