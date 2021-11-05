@@ -7,7 +7,7 @@ Modul [syspr]( https://www.fhnw.ch/de/studium/module/6008081) von [@tamberg](htt
 
 ## Beispiele
 - [eintr.c](eintr.c)
-- [errno.c](errno.c)
+- [errno.sh](errno.sh)
 - [iter.c](iter.c)
 - [iter_mutex.c](iter_mutex.c)
 - [prod.c](prod.c)
