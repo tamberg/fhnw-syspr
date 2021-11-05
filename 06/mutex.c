@@ -10,6 +10,7 @@ volatile int g = 0;
 int n;
 
 void *start(void *arg) {
+    (void) arg; // suppress -Werror=unused-parameter
     for (int i = 0; i < n; i++) {
         pthread_mutex_lock(&m); // blocking
         // critical section >>
@@ -17,9 +18,14 @@ void *start(void *arg) {
         // << critical section
         pthread_mutex_unlock(&m);
     }
+    return NULL;
 }
 
 int main(int argc, char *argv[]) {
+    if (argc != 2) {
+        printf("usage: %s n # returns 2 * n\n", argv[0]);
+        exit(-1);
+    }
     n = atoi(argv[1]);
     pthread_t t1;
     pthread_t t2;
