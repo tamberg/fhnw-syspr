@@ -2,6 +2,7 @@
 #include <pthread.h>
 
 void *start(void *arg) {
+    (void) arg; // suppress -Werror=unused-parameter
     printf("thread started...\n");
     return NULL;
 }
