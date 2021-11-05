@@ -23,5 +23,4 @@ Modul [syspr]( https://www.fhnw.ch/de/studium/module/6008081) von [@tamberg](htt
 - [Hands-on zu Lektion 6](../../../../fhnw-syspr-work-06/blob/master/README.md)
 
 ## Lösungsvorschlag
-- [pthreads.c](pthreads.c)
-- [self_join.c](self_join.c)
+-
