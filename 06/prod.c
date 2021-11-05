@@ -9,6 +9,7 @@ pthread_mutex_t m = PTHREAD_MUTEX_INITIALIZER;
 volatile int stock = 0;
 
 void *produce(void *arg) {
+    (void) arg; // suppress -Werror=unused-parameter
     while (1) {
         pthread_mutex_lock(&m); // blocking
         // critical section >>
@@ -22,6 +23,7 @@ void *produce(void *arg) {
 }
 
 void *consume(void *arg) {
+    (void) arg; // suppress -Werror=unused-parameter
     while (1) {
         pthread_mutex_lock(&m); // blocking
         // critical section >>
@@ -34,7 +36,7 @@ void *consume(void *arg) {
     }
 }
 
-int main(int argc, char *argv[]) {
+int main(void) {
     pthread_t t1;
     pthread_t t2;
     pthread_create(&t1, NULL, produce, NULL);
