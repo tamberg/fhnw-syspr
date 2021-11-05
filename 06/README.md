@@ -14,8 +14,6 @@ Modul [syspr]( https://www.fhnw.ch/de/studium/module/6008081) von [@tamberg](htt
 - [prod_cond.c](prod_cond.c)
 - [prod_condvar.c](http://man7.org/tlpi/code/online/dist/threads/prod_condvar.c.html)<sup>TLPI</sup>
 - [prod_no_condvar.c](http://man7.org/tlpi/code/online/dist/threads/prod_no_condvar.c.html)<sup>TLPI</sup>
-- [thread.c](thread.c)
-- [thread_arg.c](thread_arg.c)
 - [thread_incr.c](http://man7.org/tlpi/code/online/dist/threads/thread_incr.c.html)<sup>TLPI</sup>
 - [thread_incr_mutex.c](http://man7.org/tlpi/code/online/dist/threads/thread_incr_mutex.c.html)<sup>TLPI</sup>
 
@@ -23,4 +21,5 @@ Modul [syspr]( https://www.fhnw.ch/de/studium/module/6008081) von [@tamberg](htt
 - [Hands-on zu Lektion 6](../../../../fhnw-syspr-work-06/blob/master/README.md)
 
 ## Lösungsvorschlag
--
+- [thread.c](thread.c)
+- [thread_arg.c](thread_arg.c)
