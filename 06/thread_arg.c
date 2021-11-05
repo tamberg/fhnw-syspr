@@ -15,7 +15,7 @@ int main() {
     pthread_t thread;
     int i = 3;
     void *arg = &i;
-    int result = pthread_create(&thread, NULL, start, arg);
+    pthread_create(&thread, NULL, start, arg);
     void *retval;
     pthread_join(thread, &retval);
     int val = *((int *) retval);
