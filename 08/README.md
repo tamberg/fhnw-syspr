@@ -2,8 +2,8 @@
 Modul [syspr]( https://www.fhnw.ch/de/studium/module/6008081) von [@tamberg](https://twitter.com/tamberg) für [FHNW](https://www.fhnw.ch/).
 
 ## Lektion 8: IPC mit Pipes
-- [Slides](http://www.tamberg.org/fhnw/2021/fs/Syspr08IPCMitPipes.pdf)
-- [Handout](http://www.tamberg.org/fhnw/2021/fs/Syspr08IPCMitPipesHandout.pdf)
+- [Slides](http://www.tamberg.org/fhnw/2021/hs/Syspr08IPCMitPipes.pdf)
+- [Handout](http://www.tamberg.org/fhnw/2021/hs/Syspr08IPCMitPipesHandout.pdf)
 
 ## Beispiele
 - [simple_pipe.c](http://man7.org/tlpi/code/online/book/pipes/simple_pipe.c.html)<sup>TLPI</sup>
