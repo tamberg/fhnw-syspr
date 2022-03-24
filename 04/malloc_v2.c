@@ -57,7 +57,7 @@ void *my_malloc(size_t n) {
     struct block *b = find_free_block(n);
     if (b == NULL) {
         // create block
-        b = malloc(sizeof(struct block));
+        b = malloc(sizeof(struct block)); // oops!
         b->n = n;
         b->p = sbrk(n); // incr heap size
         // insert block
