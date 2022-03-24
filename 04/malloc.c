@@ -57,7 +57,8 @@ void test2() {
     assert(sbrk(0) == (void *) p);
 }
 
-int main() {
+int main(void) {
     test1();
     test2();
+    return 0;
 }
