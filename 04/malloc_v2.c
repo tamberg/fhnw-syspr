@@ -65,6 +65,7 @@ void *my_malloc(size_t n) {
         blocks = b;
     } else {
         b->free = 0;
+        // TODO split block if too big
     }
     assert(b != NULL);
     void *p = b->p;
