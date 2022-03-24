@@ -69,18 +69,20 @@ void *my_malloc(size_t n) {
     }
     assert(b != NULL);
     void *p = b->p;
-    printf("malloc(%zu) => %p\n", n, p);
+    printf("my_malloc(%zu) => %p\n", n, p);
     print_blocks();
     return p;
 #else
-    return malloc(n);
+    void *p = malloc(n);
 #endif
+    printf("my_malloc(%zu) => %p\n", n, p);
+    return p;
 }
 
 void my_free(void *p) {
+    printf("my_free(%p)\n", p);
 #if MY_IMPL
     // implement free()
-    printf("free(%p)\n", p);
     mark_free_block(p);
     // TODO fuse free blocks
     // TODO decr heap size using brk()
