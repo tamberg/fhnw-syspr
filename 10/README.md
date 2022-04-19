@@ -2,8 +2,8 @@
 Modul [syspr]( https://www.fhnw.ch/de/studium/module/6008081) von [@tamberg](https://twitter.com/tamberg) für [FHNW](https://www.fhnw.ch/).
 
 ## Lektion 10: POSIX IPC
-- [Slides](http://www.tamberg.org/fhnw/2021/hs/Syspr10PosixIPC.pdf)
-- [Handout](http://www.tamberg.org/fhnw/2021/hs/Syspr10PosixIPCHandout.pdf)
+- [Slides](http://www.tamberg.org/fhnw/2022/fs/Syspr10PosixIPC.pdf)
+- [Handout](http://www.tamberg.org/fhnw/2022/fs/Syspr10PosixIPCHandout.pdf)
 
 ## Beispiele
 
