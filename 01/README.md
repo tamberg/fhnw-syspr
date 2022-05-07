@@ -15,6 +15,7 @@ Modul [syspr]( https://www.fhnw.ch/de/studium/module/6008081) von [@tamberg](htt
 - [hello.c](hello.c)
 - [limits.c](limits.c)
 - [odd.c](odd.c)
+- [quine.c](quine.c)
 - [sizeof.c](sizeof.c)
 - [strings.c](strings.c)
 - [structs.c](structs.c)
