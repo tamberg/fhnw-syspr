@@ -3,7 +3,7 @@ Modul [syspr]( https://www.fhnw.ch/de/studium/module/6008081) von [@tamberg](htt
 
 ## Lektion 7: Assessment I
 - [Assessment (4ibb1)](./Syspr07Assessment_4ibb1.pdf)
-- [Assessment (4ibb2](./Syspr07Assessment_4ibb2.pdf)
+- [Assessment (4ibb2)](./Syspr07Assessment_4ibb2.pdf)
 
 ## Lösungsvorschlag
 - Kein Lösungsvorschlag
