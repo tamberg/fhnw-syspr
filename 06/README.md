@@ -3,7 +3,6 @@ Modul [syspr]( https://www.fhnw.ch/de/studium/module/6008081) von [@tamberg](htt
 
 ## Lektion 6: Threads und Synchronisation
 - [Slides](http://www.tamberg.org/fhnw/2022/fs/Syspr06ThreadsUndSynchronisation.pdf)
-- [Handout](http://www.tamberg.org/fhnw/2022/fs/Syspr06ThreadsUndSynchronisationHandout.pdf)
 
 ## Beispiele
 - [eintr.c](eintr.c)
