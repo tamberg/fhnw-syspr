@@ -3,7 +3,6 @@ Modul [syspr]( https://www.fhnw.ch/de/studium/module/6008081) von [@tamberg](htt
 
 ## Lektion 5: Prozess Lebenszyklus
 - [Slides](http://www.tamberg.org/fhnw/2022/fs/Syspr05ProzessLebenszyklus.pdf)
-- [Handout](http://www.tamberg.org/fhnw/2022/fs/Syspr05ProzessLebenszyklusHandout.pdf)
 
 ## Beispiele
 - [exec.c](exec.c) (starts [hello.c](hello.c))
