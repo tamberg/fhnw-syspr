@@ -2,7 +2,7 @@
 Modul [syspr]( https://www.fhnw.ch/de/studium/module/6008081) von [@tamberg](https://twitter.com/tamberg) für [FHNW](https://www.fhnw.ch/).
 
 ## Lektion 1: Erste Schritte in C
-- [Slides](http://www.tamberg.org/fhnw/2022/fs/Syspr01ErsteSchritteInC.pdf)
+- [Slides](http://www.tamberg.org/fhnw/2022/hs/Syspr01ErsteSchritteInC.pdf)
 
 ## Beispiele
 - [arr_ptr.c](arr_ptr.c)
