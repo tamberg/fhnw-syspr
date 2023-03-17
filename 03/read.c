@@ -20,7 +20,7 @@ int main(int argc, char *argv[]) {
         perror("read"); // reads errno
         return -1;
     } else {
-        assert(r == 0); // EOF
+        assert(r == 0); // end of file
     }
     close(fd);
     return 0;
