@@ -9,6 +9,7 @@ int main(int argc, char *argv[]) {
         perror("open"); // reads errno
         return -1;
     }
+
     int n = 32;
     char buf[n]; // allocated on stack
     ssize_t r = read(fd, buf, n);
@@ -22,6 +23,7 @@ int main(int argc, char *argv[]) {
     } else {
         assert(r == 0); // end of file
     }
+
     close(fd);
     return 0;
 }
