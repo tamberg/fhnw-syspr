@@ -2,7 +2,7 @@
 Modul [syspr]( https://www.fhnw.ch/de/studium/module/6008081) von [@tamberg](https://twitter.com/tamberg) für [FHNW](https://www.fhnw.ch/).
 
 ## Lektion 12: Terminals
-- [Slides](http://www.tamberg.org/fhnw/2022/hs/Syspr12Terminals.pdf)
+- [Slides](http://www.tamberg.org/fhnw/2023/fs/Syspr12Terminals.pdf)
 
 ## Beispiele
 - [new_intr.c](http://man7.org/tlpi/code/online/book/tty/new_intr.c.html)<sup>TLPI</sup>
