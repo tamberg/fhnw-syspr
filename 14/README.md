@@ -2,7 +2,7 @@
 Modul [syspr]( https://www.fhnw.ch/de/studium/module/6008081) von [@tamberg](https://twitter.com/tamberg) für [FHNW](https://www.fhnw.ch/).
 
 ## Lektion 14: Abschluss
-- [Slides](http://www.tamberg.org/fhnw/2022/hs/Syspr14WeitereArtenVonIO.pdf)
+- [Slides](http://www.tamberg.org/fhnw/2023/fs/Syspr14WeitereArtenVonIO.pdf)
 
 ## Beispiele
 - [blink.c](blink.c)
