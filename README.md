@@ -42,4 +42,4 @@ Eigenen Code publizieren?
 * [Wählen Sie eine open source Lizenz](https://choosealicense.com/), z.B. die einfache [MIT License](https://choosealicense.com/licenses/mit/).
 
 ## Support
-FHNW syspr Teams
+FHNW syspr Teams.
