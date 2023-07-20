@@ -2,8 +2,8 @@
 Modul [syspr]( https://www.fhnw.ch/de/studium/module/6008081) von [@tamberg](https://twitter.com/tamberg) für [FHNW](https://www.fhnw.ch/).
 
 ## Lektion 7: Assessment I
-- [Assessment](Syspr07Assessment_v10.0_FS23_4ibb1.pdf)
-- [Assessment](Syspr07Assessment_v10.0_FS23_4ibb2.pdf)
+- [Assessment 4ibb1](Syspr07Assessment_v10.0_FS23_4ibb1.pdf)
+- [Assessment 4ibb2](Syspr07Assessment_v10.0_FS23_4ibb2.pdf)
 
 ## Lösungsvorschlag
 - Kein Lösungsvorschlag
