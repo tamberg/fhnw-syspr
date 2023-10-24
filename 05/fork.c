@@ -5,7 +5,7 @@
 
 int main(void) {
     pid_t res = fork();
-    if (res == 0) {
+    if (res == 0) { // child
         printf("child %d of parent %d\n", getpid(), getppid());
         exit(0);
     }
