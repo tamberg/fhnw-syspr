@@ -10,7 +10,7 @@ int main(void) {
         exit(0);
     }
     // parent
-    wait(NULL);
+    wait(NULL); // blocking
     printf("parent %d of child %d\n", getpid(), res);
     return 0;
 }
