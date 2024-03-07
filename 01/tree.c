@@ -1,43 +1,25 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-typedef struct node {
+struct node {
     char *label;
     struct node *left;
     struct node *right;
-} Node;
+};
 
-int main(void) {	
-    Node *ll = malloc(sizeof(Node));
-    ll->label = "I am left left";
-    ll->left = NULL;
-    ll->right = NULL;
+int main(void) {
+    struct node ll = { "left left", NULL, NULL };
+    struct node lr = { "left right", NULL, NULL };
+    struct node l = { "left", &ll, &lr };
+    struct node r = { "right", NULL, NULL };
+    struct node n = { "root", &l, &r };
 
-    Node *lr = malloc(sizeof(Node));
-    lr->label = "I am left right";
-    lr->left = NULL;
-    lr->right = NULL;
-
-    Node *l = malloc(sizeof(Node));
-    l->label = "I am left";
-    l->left = ll;
-    l->right = lr;
-
-    Node *r = malloc(sizeof(Node));
-    r->label = "I am right";
-    r->left = NULL;
-    r->right = NULL;
-
-    Node *root = malloc(sizeof(Node));
-    root->label = "I am root";
-    root->left = l;
-    root->right = r;
-	
-    free(root);
-    free(r);
-    free(l);
-    free(lr);
-    free(ll);
+    struct node *root = &n;
+    printf("%s\n", root->label);
+    printf("%s\n", root->left->label);
+    printf("%s\n", root->left->left->label);
+    printf("%s\n", root->left->right->label);
+    printf("%s\n", root->right->label);
 
     return 0;
 }
