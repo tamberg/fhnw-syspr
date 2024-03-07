@@ -16,7 +16,7 @@ int main(void) {
     struct node n = { "root", &l, &r };
     struct node *root = &n;
 
-    // print node labels
+    // print labels, depth-first
     printf("%s\n", root->label);
     printf("%s\n", root->left->label);
     printf("%s\n", root->left->left->label);
