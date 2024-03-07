@@ -1,56 +1,61 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#define MAX_CHILDREN 3
-
-typedef struct node {
+struct node {
     char *label;
-    struct node *children[MAX_CHILDREN];
-} Node;
+    struct node *left;
+    struct node *right;
+};
 
-int main(void) {
-    Node *n00 = malloc(sizeof(Node));
-    n00->label = "I am left left";
-    n00->children[0] = NULL;
-    n00->children[1] = NULL;
-    n00->children[2] = NULL;
+int main(void) {	
+    // allocate on heap
+    struct node *ll = malloc(sizeof(struct node));
+    ll->label = "left left";
+    ll->left = NULL;
+    ll->right = NULL;
 
-    Node *n01 = malloc(sizeof(Node));
-    n01->label = "I am left middle";
-    n01->children[0] = NULL;
-    n01->children[1] = NULL;
-    n01->children[2] = NULL;
+    struct node *lr = malloc(sizeof(struct node));
+    lr->label = "left right";
+    lr->left = NULL;
+    lr->right = NULL;
 
-    Node *n02 = malloc(sizeof(Node));
-    n02->label = "I am left right";
-    n02->children[0] = NULL;
-    n02->children[1] = NULL;
-    n02->children[2] = NULL;
+    struct node *l = malloc(sizeof(struct node));
+    l->label = "left";
+    l->left = ll;
+    l->right = lr;
 
-    Node *n0 = malloc(sizeof(Node));
-    n0->label = "I am left";
-    n0->children[0] = n00;
-    n0->children[1] = n01;
-    n0->children[2] = n02;
+    struct node *r = malloc(sizeof(struct node));
+    r->label = "right";
+    r->left = NULL;
+    r->right = NULL;
 
-    Node *n1 = malloc(sizeof(Node));
-    n1->label = "I am right";
-    n1->children[0] = NULL;
-    n1->children[1] = NULL;
-    n1->children[2] = NULL;
+    struct node *root = malloc(sizeof(struct node));
+    root->label = "root";
+    root->left = l;
+    root->right = r;
 
-    Node *root = malloc(sizeof(Node));
-    root->label = "I am root";
-    root->children[0] = n0;
-    root->children[1] = n1;
-    root->children[2] = NULL;
+    // print tree labels
+    printf("%s\n", root->label);
+    printf("%s\n", root->left->label);
+    printf("%s\n", root->left->left->label);
+    printf("%s\n", root->left->right->label);
+    printf("%s\n", root->right->label);
+
+    // free tree nodes
+    free(root->left->left);
+    root->left->left = NULL;
+
+    free(root->left->right);
+    root->left->right = NULL;
+
+    free(root->left);
+    root->left = NULL;
+
+    free(root->right);
+    root->right = NULL;
 
     free(root);
-    free(n1);
-    free(n0);
-    free(n02);
-    free(n01);
-    free(n00);
+    root = NULL;
 
     return 0;
 }
