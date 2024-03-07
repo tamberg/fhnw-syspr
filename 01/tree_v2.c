@@ -34,14 +34,14 @@ int main(void) {
     root->left = l;
     root->right = r;
 
-    // print node labels
+    // print labels, depth-first
     printf("%s\n", root->label);
     printf("%s\n", root->left->label);
     printf("%s\n", root->left->left->label);
     printf("%s\n", root->left->right->label);
     printf("%s\n", root->right->label);
 
-    // free tree nodes
+    // free nodes, leaves-first
     free(root->left->left);
     root->left->left = NULL;
 
