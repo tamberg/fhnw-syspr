@@ -8,7 +8,7 @@ struct node {
 };
 
 int main(void) {	
-    // allocate on heap
+    // allocate nodes, on the heap
     struct node *ll = malloc(sizeof(struct node));
     ll->label = "left left";
     ll->left = NULL;
@@ -34,7 +34,7 @@ int main(void) {
     root->left = l;
     root->right = r;
 
-    // print tree labels
+    // print node labels
     printf("%s\n", root->label);
     printf("%s\n", root->left->label);
     printf("%s\n", root->left->left->label);
