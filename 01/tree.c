@@ -8,7 +8,7 @@ struct node {
 };
 
 int main(void) {
-    // allocate on stack
+    // allocate nodes, on the stack
     struct node ll = { "left left", NULL, NULL };
     struct node lr = { "left right", NULL, NULL };
     struct node l = { "left", &ll, &lr };
@@ -16,7 +16,7 @@ int main(void) {
     struct node n = { "root", &l, &r };
     struct node *root = &n;
 
-    // print tree labels
+    // print node labels
     printf("%s\n", root->label);
     printf("%s\n", root->left->label);
     printf("%s\n", root->left->left->label);
