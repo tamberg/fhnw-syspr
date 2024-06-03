@@ -1,0 +1,21 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/debian
+{
+  "name": "C",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "context": ".",
+  },
+  "features": {
+    "ghcr.io/devcontainers/features/github-cli:1": {},
+  },
+  "mounts": [
+    "type=bind,source=${localWorkspaceFolder},target=/work",
+    "type=bind,source=/home/${localEnv:USER}/.ssh,target=/root/.ssh,readonly",
+  ],
+  "customizations": {
+    "vscode": {
+      "extensions": ["ms-vscode.cpptools"],
+    },
+  },
+}
