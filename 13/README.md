@@ -2,12 +2,13 @@
 Modul [syspr]( https://www.fhnw.ch/de/studium/module/6008081) von [@tamberg](https://twitter.com/tamberg) für [FHNW](https://www.fhnw.ch/).
 
 ## Lektion 13: Assessment II
-- [Assessment](Syspr13Assessment_v12.0_FS24_4ibb1.pdf)
+- Assessment (TODO)
 
 ## Lösungsvorschlag
 - Kein Lösungsvorschlag
 
 ## Beispiele
+- [FS24 4ibb1](https://github.com/tamberg/fhnw-syspr/blob/v12.0/13/Syspr13Assessment_v12.0_FS24_4ibb1.pdf)
 - [HS23 3ia](https://github.com/tamberg/fhnw-syspr/blob/v11.0/13/Syspr13Assessment_v11.0_HS23_3ia.pdf)
 - [FS23 4ibb1](https://github.com/tamberg/fhnw-syspr/blob/v10.0/13/Syspr13Assessment_v10.0_FS23_4ibb1.pdf)
 - [FS23 4ibb2](https://github.com/tamberg/fhnw-syspr/blob/v10.0/13/Syspr13Assessment_v10.0_FS23_4ibb2.pdf)
