@@ -1,14 +1,14 @@
 #include <stdio.h>
 
-typedef struct { int x; int y; } Point;
+struct point { int x; int y; };
 
-Point create_point(int x, int y) {
-    Point p = {x, y};
+struct point create_point(int x, int y) {
+    struct point p = {x, y};
     return p;
 }
 
 int main(void) {
-    Point origin = create_point(0, 0);
+    struct point origin = create_point(0, 0);
     printf("(%d, %d)\n", origin.x, origin.y);
     return 0;
 }
