@@ -2,7 +2,7 @@
 Modul [syspr]( https://www.fhnw.ch/de/studium/module/6008081) von [@tamberg](https://twitter.com/tamberg) für [FHNW](https://www.fhnw.ch/).
 
 ## Lektion 7: Assessment I
-- Assessment (TODO)
+- [Assessment](Syspr07Assessment_v13.0_HS24_3ia.pdf)
 
 ## Lösungsvorschlag
 - Kein Lösungsvorschlag
