@@ -27,7 +27,7 @@ Modul [syspr]( https://www.fhnw.ch/de/studium/module/6008081) von [@tamberg](htt
 - [pshm_write.c](http://man7.org/tlpi/code/online/book/pshm/pshm_write.c.html)<sup>TLPI</sup>
 
 ## Hands-on
-- [Hands-on zu Lektion 10](../../../../fhnw-syspr-work-10/blob/master/README.md)
+- TODO
 
 ## Lösungsvorschlag
 - Kein Vorschlag
