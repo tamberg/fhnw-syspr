@@ -10,7 +10,7 @@ Modul [syspr]( https://www.fhnw.ch/de/studium/module/6008081) von [@tamberg](htt
 - [strtime.c](http://man7.org/tlpi/code/online/book/time/strtime.c.html)<sup>TLPI</sup>
 
 ## Hands-on
-- [Hands-on zu Lektion 11](../../../../fhnw-syspr-work-11/blob/master/README.md)
+- TODO
 
 ## Lösungsvorschlag
 - [locale.c](locale.c)
