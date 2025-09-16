@@ -17,7 +17,7 @@ Modul [syspr]( https://www.fhnw.ch/de/studium/module/6008081) von [@tamberg](htt
 - [thread_incr_mutex.c](http://man7.org/tlpi/code/online/dist/threads/thread_incr_mutex.c.html)<sup>TLPI</sup>
 
 ## Hands-on
-- [Hands-on zu Lektion 6](../../../../fhnw-syspr-work-06/blob/master/README.md)
+- TODO
 
 ## Lösungsvorschlag
 - [thread.c](thread.c)
