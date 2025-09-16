@@ -19,16 +19,6 @@ Modul [syspr]( https://www.fhnw.ch/de/studium/module/6008081) von [@tamberg](htt
 13. [Assessment II](13/README.md)
 14. [Abschluss](14/README.md)
 
-## Git
-Auf Linux
-
-* Repository klonen:<pre>
-    $ cd ~
-    $ git clone https://github.com/tamberg/fhnw-syspr</pre>
-* Repository updaten, vor jeder Lektion:<pre>
-    $ cd ~/fhnw-syspr
-    $ git pull</pre>
-
 ## Lizenz
 
 Soweit nicht anders vermerkt, gilt:
