@@ -8,4 +8,4 @@ Modul [syspr]( https://www.fhnw.ch/de/studium/module/6008081) von [@tamberg](htt
 - [hello.c](hello.c)
 
 ## Hands-on
-- [Hands-on zu Lektion 0](../../../../fhnw-syspr-work-00/blob/master/README.md)
+- TODO

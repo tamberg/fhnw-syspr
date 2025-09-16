@@ -14,7 +14,7 @@ Modul [syspr]( https://www.fhnw.ch/de/studium/module/6008081) von [@tamberg](htt
 - [tty_id.c](tty_id.c)
 
 ## Hands-on
-- [Hands-on zu Lektion 12](../../../../fhnw-syspr-work-12/blob/master/README.md)
+- TODO
 
 ## Lösungsvorschlag
 - Kein Vorschlag

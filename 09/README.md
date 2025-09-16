@@ -19,7 +19,7 @@ Modul [syspr]( https://www.fhnw.ch/de/studium/module/6008081) von [@tamberg](htt
 - [i6d_ucase_sv.c](http://man7.org/tlpi/code/online/book/sockets/i6d_ucase_sv.c.html)<sup>TLPI</sup>
 
 ## Hands-on
-- [Hands-on zu Lektion 9](../../../../fhnw-syspr-work-09/blob/master/README.md)
+- TODO
 
 ## Lösungsvorschlag
 - [http_client.c](http_client.c)

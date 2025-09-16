@@ -10,7 +10,7 @@ Modul [syspr]( https://www.fhnw.ch/de/studium/module/6008081) von [@tamberg](htt
 - [pipe_ls_wc.c](http://man7.org/tlpi/code/online/book/pipes/pipe_ls_wc.c.html)<sup>TLPI</sup>
 
 ## Hands-on
-- [Hands-on zu Lektion 8](../../../../fhnw-syspr-work-08/blob/master/README.md)
+- TODO
 
 ## Lösungsvorschlag
 - [fifo_r.c](fifo_r.c)

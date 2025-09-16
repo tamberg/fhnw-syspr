@@ -24,8 +24,8 @@ Modul [syspr]( https://www.fhnw.ch/de/studium/module/6008081) von [@tamberg](htt
 - [variants.c](variants.c)
 
 ## Hands-on
-- [Hands-on zu Lektion 1](../../../../fhnw-syspr-work-01/blob/master/README.md)
-
+- TODO
+  
 ## Lösungsvorschlag
 - [args.c](args.c)
 - [sizeof.c](sizeof.c)

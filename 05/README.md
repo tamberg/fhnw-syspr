@@ -13,7 +13,7 @@ Modul [syspr]( https://www.fhnw.ch/de/studium/module/6008081) von [@tamberg](htt
 - [fork_whos_on_first.c](http://man7.org/tlpi/code/online/dist/procexec/fork_whos_on_first.c.html)<sup>TLPI</sup>
 
 ## Hands-on
-- [Hands-on zu Lektion 5](../../../../fhnw-syspr-work-05/blob/master/README.md)
+- TODO
 
 ## Lösungsvorschlag
 - [fork.c](fork.c)
