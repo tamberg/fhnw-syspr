@@ -1,6 +1,6 @@
 # System-Programmierung
 ## Lektion 1: Erste Schritte in C
-- [Slides](http://www.tamberg.org/fhnw/2024/hs/Syspr01ErsteSchritteInC.pdf)
+- [Slides](http://www.tamberg.org/fhnw/2026/fs/Syspr01ErsteSchritteInC.pdf)
 
 ## Beispiele
 - [arr_ptr.c](arr_ptr.c)

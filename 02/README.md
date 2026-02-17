@@ -1,6 +1,6 @@
 # System-Programmierung
 ## Lektion 2: Funktionen
-- [Slides](http://www.tamberg.org/fhnw/2024/hs/Syspr02Funktionen.pdf)
+- [Slides](http://www.tamberg.org/fhnw/2026/fs/Syspr02Funktionen.pdf)
 
 ## Beispiele
 - [count.c](count.c)
