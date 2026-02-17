@@ -16,7 +16,6 @@
 - [structs.c](structs.c)
 - [switch.c](switch.c)
 - [typedef.c](typedef.c)
-- [variants.c](variants.c)
 
 ## Hands-on
 - TODO
