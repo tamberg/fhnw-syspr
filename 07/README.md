@@ -1,7 +1,7 @@
 # System-Programmierung
 ## Lektion 7: Assessment I
-- [Assessment](/07/Syspr07Assessment_v16.0_FS26_4ibb1.pdf)
- 
+- Assessment (TODO)
+
 ## Lösungsvorschlag
 - Kein Lösungsvorschlag
 
