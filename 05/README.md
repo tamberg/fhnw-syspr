@@ -1,6 +1,6 @@
 # System-Programmierung
 ## Lektion 5: Prozess Lebenszyklus
-- [Slides](http://www.tamberg.org/fhnw/2024/hs/Syspr05ProzessLebenszyklus.pdf)
+- [Slides](http://www.tamberg.org/fhnw/2026/hs/Syspr05ProzessLebenszyklus.pdf)
 
 ## Beispiele
 - [exec.c](exec.c) (starts [hello.c](hello.c))
