@@ -1,6 +1,6 @@
 # System-Programmierung
 ## Lektion 10: POSIX IPC
-- [Slides](http://www.tamberg.org/fhnw/2024/hs/Syspr10PosixIPC.pdf)
+- [Slides](http://www.tamberg.org/fhnw/2026/hs/Syspr10PosixIPC.pdf)
 
 ## Beispiele
 
