@@ -1,6 +1,6 @@
 # System-Programmierung
 ## Lektion 8: IPC mit Pipes
-- [Slides](http://www.tamberg.org/fhnw/2024/hs/Syspr08IPCMitPipes.pdf)
+- [Slides](http://www.tamberg.org/fhnw/2026/hs/Syspr08IPCMitPipes.pdf)
 
 ## Beispiele
 - [simple_pipe.c](http://man7.org/tlpi/code/online/book/pipes/simple_pipe.c.html)<sup>TLPI</sup>
