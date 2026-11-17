@@ -1,6 +1,6 @@
 # System-Programmierung
 ## Lektion 6: Threads und Synchronisation
-- [Slides](http://www.tamberg.org/fhnw/2024/hs/Syspr06ThreadsUndSynchronisation.pdf)
+- [Slides](http://www.tamberg.org/fhnw/2026/hs/Syspr06ThreadsUndSynchronisation.pdf)
 
 ## Beispiele
 - [eintr.c](eintr.c)
