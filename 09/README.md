@@ -1,6 +1,6 @@
 # System-Programmierung
 ## Lektion 9: Sockets
-- [Slides](http://www.tamberg.org/fhnw/2024/hs/Syspr09Sockets.pdf)
+- [Slides](http://www.tamberg.org/fhnw/2026/hs/Syspr09Sockets.pdf)
 
 ## Beispiele
 ### UNIX Domain Datagram Sockets
